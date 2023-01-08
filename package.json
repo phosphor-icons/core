@@ -1,0 +1,32 @@
+{
+  "name": "phosphor-core",
+  "version": "1.4.1",
+  "description": "Icon catalog and assets for Phosphor",
+  "license": "MIT",
+  "main": "index.ts",
+  "repository": "https://github.com/phosphor-icons/phosphor-core.git",
+  "private": false,
+  "author": {
+    "name": "Tobias Fried",
+    "email": "friedtm@gmail.com",
+    "url": "https://tobiasfried.com"
+  },
+  "keywords": [
+    "phosphor",
+    "icons",
+    "svg",
+    "design",
+    "interface",
+    "UI",
+    "UX"
+  ],
+  "scripts": {
+    "fetch": "node ./bin/fetch.js"
+  },
+  "devDependencies": {
+    "axios": "^1.2.2",
+    "chalk": "^4",
+    "commander": "^9.5.0",
+    "typescript": "^4.9.4"
+  }
+}
