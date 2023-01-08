@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/core",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "description": "Icon catalog and assets for Phosphor",
   "license": "MIT",
   "repository": "https://github.com/phosphor-icons/phosphor-core.git",
@@ -9,13 +9,14 @@
     "access": "public"
   },
   "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
+  "module": "./dist/index.mjs",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
+      "import": "./dist/index.mjs",
       "require": "./dist/index.umd.js"
     }
   },
+  "types": "./dist/index.d.ts",
   "author": {
     "name": "Tobias Fried",
     "email": "friedtm@gmail.com",
