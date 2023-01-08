@@ -40,7 +40,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
       res.data.icons.forEach((icon) => {
         let categories = "[";
-        icon.searchCategories?.forEach((c) => {
+        icon.search_categories?.forEach((c) => {
           categories += `IconCategory.${c.toUpperCase()},`;
         });
         categories += "]";
@@ -58,6 +58,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       ...icon.tags,
     ])},
     published_in: ${icon.published_in.toFixed(1)},
+    updated_in: ${icon.updated_in.toFixed(1)},
   },
 `;
         console.log(`${chalk.inverse.green(" DONE ")} ${icon.name}`);
@@ -69,7 +70,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
       try {
         await fs.writeFile(
-          path.join(__dirname, "../src/ icons_new.ts"),
+          path.join(__dirname, "../src/icons.ts"),
           fileString
         );
         console.log(

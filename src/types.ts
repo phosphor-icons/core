@@ -34,4 +34,5 @@ export interface IconEntry {
   categories: IconCategory[];
   tags: string[];
   published_in: number;
+  updated_in: number;
 }

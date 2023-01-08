@@ -16,6 +16,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "pulse",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "address-book",
@@ -23,6 +24,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["contacts", "roledex"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "airplane",
@@ -39,6 +41,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "traveling",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "airplane-in-flight",
@@ -56,6 +59,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrival",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "airplane-landing",
@@ -73,6 +77,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrival",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "airplane-takeoff",
@@ -90,6 +95,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "departure",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "airplane-tilt",
@@ -107,6 +113,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "departure",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "airplay",
@@ -114,6 +121,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["apple", "screencasting", "television", "tv"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "alarm",
@@ -121,6 +129,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["times", "timer", "clock", "schedule", "events", "watch"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "alien",
@@ -135,6 +144,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "sci-fi",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-bottom",
@@ -142,6 +152,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "flush bottom"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-bottom-simple",
@@ -149,6 +160,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "flush bottom"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-center-horizontal",
@@ -156,6 +168,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "centered", "middle"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-center-horizontal-simple",
@@ -163,6 +176,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "centered", "middle"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-center-vertical",
@@ -170,6 +184,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "centered", "middle"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-center-vertical-simple",
@@ -177,6 +192,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "centered", "middle"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-left",
@@ -184,6 +200,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "flush left"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-left-simple",
@@ -191,6 +208,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "flush left"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-right",
@@ -198,6 +216,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "flush right"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-right-simple",
@@ -205,6 +224,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "flush right"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "align-top",
@@ -212,6 +232,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["alignment", "arrangement", "layout", "flush top"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "align-top-simple",
@@ -219,6 +240,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "arrangement", "layout", "flush top"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "anchor",
@@ -230,6 +252,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["nautical", "boats", "ships", "hope", "safety", "insurance"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "anchor-simple",
@@ -241,6 +264,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["nautical", "boats", "ships", "hope", "safety", "insurance"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "android-logo",
@@ -252,6 +276,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["logos", "google", "mobile", "phone", "cellular", "cellphone"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "angular-logo",
@@ -259,6 +284,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["*new*", "framework", "javascript", "google", "web"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "aperture",
@@ -266,6 +292,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.MEDIA],
     tags: ["photography", "cameras", "pictures", "lens"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "app-store-logo",
@@ -273,6 +300,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["*new*", "macintosh", "imac", "iphone", "ipad", "macos", "ios"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "app-window",
@@ -280,6 +308,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["windows", "software", "programs", "applications"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "apple-logo",
@@ -287,6 +316,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["macintosh", "imac", "iphone", "ipad", "macos", "ios"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "apple-podcasts-logo",
@@ -294,6 +324,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.MEDIA],
     tags: ["*new*", "macintosh", "imac", "iphone", "ipad", "macos", "ios"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "archive",
@@ -309,6 +340,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "downloading",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "archive-box",
@@ -324,6 +356,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "downloading",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "archive-tray",
@@ -339,6 +372,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "downloading",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "armchair",
@@ -346,6 +380,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["seat", "furniture"],
     published_in: 1.2,
+    updated_in: 1.4,
   },
   {
     name: "arrow-arc-left",
@@ -353,6 +388,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-arc-right",
@@ -360,6 +396,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-double-up-left",
@@ -367,6 +404,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-double-up-right",
@@ -374,6 +412,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-down-left",
@@ -381,6 +420,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-down-right",
@@ -388,6 +428,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-left-down",
@@ -395,6 +436,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-left-up",
@@ -402,6 +444,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-right-down",
@@ -409,6 +452,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-right-up",
@@ -416,6 +460,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-up-left",
@@ -423,6 +468,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-bend-up-right",
@@ -430,6 +476,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-down",
@@ -437,6 +484,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-down-left",
@@ -444,6 +492,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-down-right",
@@ -451,6 +500,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-left",
@@ -458,6 +508,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-right",
@@ -465,6 +516,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-up",
@@ -472,6 +524,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-up-left",
@@ -479,6 +532,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-circle-up-right",
@@ -486,6 +540,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-clockwise",
@@ -502,6 +557,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "spin",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-counter-clockwise",
@@ -518,6 +574,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "spin",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-down",
@@ -525,6 +582,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-down-left",
@@ -532,6 +590,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-down-right",
@@ -539,6 +598,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-down-left",
@@ -546,6 +606,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-down-right",
@@ -553,6 +614,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-left",
@@ -560,6 +622,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-left-down",
@@ -567,6 +630,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-left-up",
@@ -574,6 +638,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-right",
@@ -581,6 +646,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-right-down",
@@ -588,6 +654,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-right-up",
@@ -595,6 +662,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-up-left",
@@ -602,6 +670,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-elbow-up-right",
@@ -609,6 +678,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-fat-down",
@@ -616,6 +686,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-left",
@@ -623,6 +694,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-line-down",
@@ -630,6 +702,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-line-left",
@@ -637,6 +710,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-line-right",
@@ -644,6 +718,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-line-up",
@@ -658,6 +733,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "outlined",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-lines-down",
@@ -665,6 +741,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-lines-left",
@@ -672,6 +749,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-lines-right",
@@ -679,6 +757,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-lines-up",
@@ -686,6 +765,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-right",
@@ -693,6 +773,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "outlined"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-fat-up",
@@ -707,6 +788,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "outlined",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrow-left",
@@ -714,6 +796,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-down",
@@ -721,6 +804,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "bottom"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-down-left",
@@ -728,6 +812,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-down-right",
@@ -735,6 +820,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-left",
@@ -742,6 +828,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-right",
@@ -749,6 +836,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-up",
@@ -756,6 +844,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead", "top"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-up-left",
@@ -763,6 +852,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-line-up-right",
@@ -770,6 +860,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-right",
@@ -777,6 +868,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-down",
@@ -784,6 +876,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-down-left",
@@ -791,6 +884,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-down-right",
@@ -798,6 +892,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-in",
@@ -805,6 +900,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["import", "directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "arrow-square-left",
@@ -812,6 +908,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-out",
@@ -826,6 +923,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrowhead",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "arrow-square-right",
@@ -833,6 +931,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-up",
@@ -840,6 +939,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-up-left",
@@ -847,6 +947,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-square-up-right",
@@ -854,6 +955,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-down-left",
@@ -869,6 +971,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-down-right",
@@ -883,6 +986,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-left-down",
@@ -898,6 +1002,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-left-up",
@@ -912,6 +1017,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-right-down",
@@ -927,6 +1033,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-right-up",
@@ -941,6 +1048,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-up-left",
@@ -956,6 +1064,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-u-up-right",
@@ -970,6 +1079,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "u-turns",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-up",
@@ -977,6 +1087,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-up-left",
@@ -984,6 +1095,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrow-up-right",
@@ -991,6 +1103,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-clockwise",
@@ -1009,6 +1122,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "spin",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-counter-clockwise",
@@ -1025,6 +1139,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "spin",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-down-up",
@@ -1032,6 +1147,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-horizontal",
@@ -1048,6 +1164,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "right",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "arrows-in",
@@ -1064,6 +1181,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "shrink",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-in-cardinal",
@@ -1080,6 +1198,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "shrink",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-in-line-horizontal",
@@ -1095,6 +1214,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "align",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrows-in-line-vertical",
@@ -1110,6 +1230,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "align",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrows-in-simple",
@@ -1125,6 +1246,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "resize",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-left-right",
@@ -1132,6 +1254,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS],
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-out",
@@ -1148,6 +1271,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "grow",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-out-cardinal",
@@ -1166,6 +1290,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "grow",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-out-line-horizontal",
@@ -1173,6 +1298,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS, IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["directional", "pointer", "pointing", "arrowhead", "open"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrows-out-line-vertical",
@@ -1180,6 +1306,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS, IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["directional", "pointer", "pointing", "arrowhead", "open"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "arrows-out-simple",
@@ -1195,6 +1322,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "resize",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "arrows-vertical",
@@ -1211,6 +1339,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "down",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "article",
@@ -1225,6 +1354,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "newspaper",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "article-medium",
@@ -1239,6 +1369,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "newspaper",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "article-ny-times",
@@ -1256,6 +1387,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "new york times",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "asterisk",
@@ -1263,6 +1395,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["star", "wildcard", "bullet point", "6", "emergency"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "asterisk-simple",
@@ -1270,6 +1403,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["*new*", "star", "wildcard", "bullet point", "5", "emergency"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "at",
@@ -1277,6 +1411,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["@", "address", "email", "at symbol", "commercial at", "arobase"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "atom",
@@ -1294,6 +1429,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "react",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "baby",
@@ -1301,6 +1437,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE, IconCategory.HEALTH],
     tags: ["infant", "child", "children", "toddler"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "backpack",
@@ -1308,6 +1445,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["*new*", "knapsack", "camping", "school", "bag"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "backspace",
@@ -1315,6 +1453,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["keyboard", "remove", "delete"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bag",
@@ -1322,6 +1461,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bag-simple",
@@ -1329,6 +1469,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "balloon",
@@ -1336,6 +1477,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["*new*", "helium", "birthday", "party"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "bandaids",
@@ -1343,6 +1485,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH],
     tags: ["bandages", "medical", "medicine", "first aid", "injury"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bank",
@@ -1359,6 +1502,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "barbell",
@@ -1374,6 +1518,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "fitness",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "barcode",
@@ -1381,6 +1526,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.SYSTEM],
     tags: ["upc", "qr", "products", "shopping", "scanner"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "barricade",
@@ -1388,6 +1534,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["*new*", "construction", "safety", "gate"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "baseball",
@@ -1395,6 +1542,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports", "mlb"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "basketball",
@@ -1402,6 +1550,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports", "nba"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "bathtub",
@@ -1409,6 +1558,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["*new*", "bath", "shower", "bathroom", "faucet"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "battery-charging",
@@ -1416,6 +1566,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-charging-vertical",
@@ -1423,6 +1574,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-empty",
@@ -1430,6 +1582,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power", "dead"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-full",
@@ -1437,6 +1590,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power", "filled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-high",
@@ -1444,6 +1598,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-low",
@@ -1451,6 +1606,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-medium",
@@ -1458,6 +1614,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-plus",
@@ -1465,6 +1622,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["*new*", "charged", "charger", "charging", "power"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "battery-warning",
@@ -1472,6 +1630,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power", "empty", "critical"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "battery-warning-vertical",
@@ -1479,6 +1638,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["charged", "charger", "charging", "power", "empty", "critical"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bed",
@@ -1494,6 +1654,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "hospital",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "beer-bottle",
@@ -1511,6 +1672,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "behance-logo",
@@ -1518,6 +1680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DESIGN],
     tags: ["*new*", "logos", "illustration", "ui", "interface"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "bell",
@@ -1535,6 +1698,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calls",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bell-ringing",
@@ -1552,6 +1716,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calls",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bell-simple",
@@ -1569,6 +1734,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calls",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bell-simple-ringing",
@@ -1586,6 +1752,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calls",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bell-simple-slash",
@@ -1605,6 +1772,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bell-simple-z",
@@ -1622,6 +1790,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "snooze",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bell-slash",
@@ -1642,6 +1811,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bell-z",
@@ -1659,6 +1829,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "snooze",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bezier-curve",
@@ -1666,6 +1837,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["*new*", "shapes", "drawing", "path", "pen"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "bicycle",
@@ -1682,6 +1854,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "fitness",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "binoculars",
@@ -1689,6 +1862,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.OBJECTS, IconCategory.MAP],
     tags: ["*new*", "telescope", "glasses", "search", "find", "explore"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "bird",
@@ -1696,6 +1870,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["animals", "pets"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "bluetooth",
@@ -1703,6 +1878,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "connection", "connected", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bluetooth-connected",
@@ -1710,6 +1886,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "connection", "connected", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bluetooth-slash",
@@ -1723,6 +1900,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bluetooth-x",
@@ -1730,6 +1908,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "connection", "connectivity", "disconnected", "errors"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "boat",
@@ -1749,6 +1928,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "book",
@@ -1756,6 +1936,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["reading", "reader", "novel", "story", "library"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "book-bookmark",
@@ -1771,6 +1952,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "favorited",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "book-open",
@@ -1778,6 +1960,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["reading", "reader", "novel", "story", "library"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bookmark",
@@ -1794,6 +1977,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "library",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bookmark-simple",
@@ -1810,6 +1994,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "library",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bookmarks",
@@ -1826,6 +2011,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "library",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bookmarks-simple",
@@ -1842,6 +2028,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "library",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "books",
@@ -1854,6 +2041,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["reading", "reader", "bookshelf", "library", "places", "locations"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "bounding-box",
@@ -1861,6 +2049,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["polygon", "shapes", "outline", "corners", "rectangle"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brackets-angle",
@@ -1868,6 +2057,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["code", "angle brackets", "angle braces"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brackets-curly",
@@ -1875,6 +2065,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["code", "curly brackets", "curly braces"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brackets-round",
@@ -1882,6 +2073,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["code", "parentheses", "round brackets", "round braces"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brackets-square",
@@ -1889,6 +2081,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["code", "square brackets", "square braces", "array"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brain",
@@ -1896,6 +2089,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.NATURE],
     tags: ["mind", "mental"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "brandy",
@@ -1914,6 +2108,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "briefcase",
@@ -1921,6 +2116,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
     tags: ["suitcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "briefcase-metal",
@@ -1928,6 +2124,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
     tags: ["suitcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.2,
+    updated_in: 1.4,
   },
   {
     name: "broadcast",
@@ -1939,6 +2136,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["radio", "hotspot", "wifi", "emit"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "browser",
@@ -1955,6 +2153,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "firefox",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "browsers",
@@ -1971,6 +2170,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "firefox",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bug",
@@ -1978,6 +2178,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.NATURE],
     tags: ["debug", "errors", "insect", "ladybug"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bug-beetle",
@@ -1985,6 +2186,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.NATURE],
     tags: ["debug", "errors", "insect", "ladybug"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "bug-droid",
@@ -1992,6 +2194,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.NATURE],
     tags: ["debug", "errors", "insect", "android", "google"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "buildings",
@@ -1999,6 +2202,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP],
     tags: ["places", "locations", "company", "business"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "bus",
@@ -2015,6 +2219,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "butterfly",
@@ -2022,6 +2227,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["*new*", "animals", "insects", "moth"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "cactus",
@@ -2029,6 +2235,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["*new*", "plants", "cacti", "desert", "western"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "cake",
@@ -2036,6 +2243,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["dessert", "birthday", "celebration", "event"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "calculator",
@@ -2071,6 +2279,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "=",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "calendar",
@@ -2078,6 +2287,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["dates", "times", "events", "schedule", "31"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "calendar-blank",
@@ -2085,6 +2295,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["dates", "times", "events", "schedule", "none"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "calendar-check",
@@ -2092,6 +2303,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["dates", "times", "events", "schedule", "todo", "checklist"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "calendar-plus",
@@ -2099,6 +2311,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["dates", "times", "events", "schedule", "add"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "calendar-x",
@@ -2106,6 +2319,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["dates", "times", "events", "schedule", "closed", "cancelled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "camera",
@@ -2113,6 +2327,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["photography", "pictures", "lens"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "camera-rotate",
@@ -2128,6 +2343,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "selfie",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "camera-slash",
@@ -2135,6 +2351,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["photography", "pictures", "lens", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "campfire",
@@ -2142,6 +2359,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["*new*", "camping", "flame", "bonfire", "outdoors"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "car",
@@ -2156,6 +2374,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "traveling",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "car-simple",
@@ -2170,6 +2389,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "traveling",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cardholder",
@@ -2181,6 +2401,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["wallet", "money", "payment", "paying", "purchase"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "cards",
@@ -2196,6 +2417,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "layers",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-double-down",
@@ -2210,6 +2432,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-double-left",
@@ -2224,6 +2447,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-double-right",
@@ -2238,6 +2462,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-double-up",
@@ -2252,6 +2477,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-down",
@@ -2266,6 +2492,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-left",
@@ -2280,6 +2507,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-right",
@@ -2294,6 +2522,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-circle-up",
@@ -2308,6 +2537,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-double-down",
@@ -2322,6 +2552,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-double-left",
@@ -2336,6 +2567,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-double-right",
@@ -2350,6 +2582,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-double-up",
@@ -2364,6 +2597,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-down",
@@ -2378,6 +2612,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-left",
@@ -2392,6 +2627,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-right",
@@ -2406,6 +2642,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "caret-up",
@@ -2420,6 +2657,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "triangle",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cat",
@@ -2427,6 +2665,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["pets", "animals", "kitty", "kitten"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "cell-signal-full",
@@ -2444,6 +2683,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-high",
@@ -2461,6 +2701,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-low",
@@ -2478,6 +2719,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-medium",
@@ -2495,6 +2737,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-none",
@@ -2512,6 +2755,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-slash",
@@ -2531,6 +2775,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cell-signal-x",
@@ -2550,6 +2795,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "service",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "chalkboard",
@@ -2566,6 +2812,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "university",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "chalkboard-simple",
@@ -2582,6 +2829,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "university",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "chalkboard-teacher",
@@ -2597,6 +2845,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "university",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "chart-bar",
@@ -2612,6 +2861,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chart-bar-horizontal",
@@ -2627,6 +2877,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chart-line",
@@ -2642,6 +2893,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "stocks",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chart-line-up",
@@ -2657,6 +2909,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "stocks",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chart-pie",
@@ -2672,6 +2925,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chart-pie-slice",
@@ -2687,6 +2941,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat",
@@ -2704,6 +2959,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-centered",
@@ -2721,6 +2977,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-centered-dots",
@@ -2738,6 +2995,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-centered-text",
@@ -2755,6 +3013,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-circle",
@@ -2772,6 +3031,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-circle-dots",
@@ -2789,6 +3049,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-circle-text",
@@ -2806,6 +3067,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-dots",
@@ -2823,6 +3085,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-teardrop",
@@ -2839,6 +3102,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-teardrop-dots",
@@ -2855,6 +3119,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-teardrop-text",
@@ -2871,6 +3136,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chat-text",
@@ -2888,6 +3154,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chats",
@@ -2905,6 +3172,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chats-circle",
@@ -2922,6 +3190,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "chats-teardrop",
@@ -2938,6 +3207,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "bubble",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "check",
@@ -2945,6 +3215,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["todo", "to-do", "task", "list", "checkbox", "ok", "done"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "check-circle",
@@ -2952,6 +3223,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["todo", "to-do", "task", "list", "checkbox", "round", "ok", "done"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "check-square",
@@ -2968,6 +3240,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "done",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "check-square-offset",
@@ -2984,6 +3257,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "done",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "checks",
@@ -2991,6 +3265,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["todo", "task", "to-do", "list", "checkbox", "ok", "done"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "circle",
@@ -2998,6 +3273,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["round", "shapes", "polygons"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "circle-dashed",
@@ -3005,6 +3281,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["missing", "round", "shapes", "polygons"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "circle-half",
@@ -3012,6 +3289,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["round", "shapes", "contrast", "brightness"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "circle-half-tilt",
@@ -3019,6 +3297,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["round", "shapes", "contrast", "brightness"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "circle-notch",
@@ -3035,6 +3314,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "circle-wavy",
@@ -3042,6 +3322,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["badge", "verified", "verification", "shapes", "polygons", "seal"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "circle-wavy-check",
@@ -3049,6 +3330,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["badge", "verified", "verification", "shapes", "polygons", "seal"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "circle-wavy-question",
@@ -3056,6 +3338,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["badge", "unverified", "verification", "shapes", "polygons", "seal"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "circle-wavy-warning",
@@ -3071,6 +3354,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "seal",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "circles-four",
@@ -3078,6 +3362,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["round", "shapes", "polygons", "4"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "circles-three",
@@ -3085,6 +3370,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["round", "shapes", "polygons", "3", "asana"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "circles-three-plus",
@@ -3092,6 +3378,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["round", "shapes", "polygons", "3", "+"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clipboard",
@@ -3099,6 +3386,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["copy", "copied", "checklist"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clipboard-text",
@@ -3106,6 +3394,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["copy", "copied", "checklist"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clock",
@@ -3113,6 +3402,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["times", "timer", "alarm", "schedule", "events", "watch"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clock-afternoon",
@@ -3120,6 +3410,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["times", "timer", "alarm", "schedule", "events", "watch"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clock-clockwise",
@@ -3136,6 +3427,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "update",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "clock-counter-clockwise",
@@ -3152,6 +3444,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "history",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "closed-captioning",
@@ -3167,6 +3460,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "a11y",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cloud",
@@ -3181,6 +3475,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "overcast",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-arrow-down",
@@ -3188,6 +3483,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["serverless", "backup", "storage", "download"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-arrow-up",
@@ -3195,6 +3491,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["serverless", "backup", "storage", "upload"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-check",
@@ -3202,6 +3499,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["serverless", "backup", "storage", "sync", "synchronized"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-fog",
@@ -3217,6 +3515,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "hazy",
     ],
     published_in: 1.1,
+    updated_in: 1.4,
   },
   {
     name: "cloud-lightning",
@@ -3224,6 +3523,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "cloudy", "overcast", "stormy", "thunderstorm"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-moon",
@@ -3231,6 +3531,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "cloudy", "partly cloudy", "night", "evening"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "cloud-rain",
@@ -3238,6 +3539,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "cloudy", "rainy", "raining", "stormy", "rainstorm"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-slash",
@@ -3245,6 +3547,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["serverless", "backup", "storage", "sync", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cloud-snow",
@@ -3252,6 +3555,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "cloudy", "snowy", "snowing", "stormy", "snowstorm"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "cloud-sun",
@@ -3259,6 +3563,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "cloudy", "partly cloudy", "partly sunny"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "club",
@@ -3266,6 +3571,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES],
     tags: ["clubs", "suits", "cards", "gambling", "casino", "gaming"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "coat-hanger",
@@ -3273,6 +3579,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE],
     tags: ["*new*", "clothing", "clothes", "closet"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "code",
@@ -3280,6 +3587,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["angle brackets", "angle braces", "snippets"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "code-simple",
@@ -3287,6 +3595,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
     tags: ["angle brackets", "angle braces", "snippets"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "codepen-logo",
@@ -3294,6 +3603,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["*new*", "ide", "logos"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "codesandbox-logo",
@@ -3301,6 +3611,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["*new*", "ide", "logos"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "coffee",
@@ -3325,6 +3636,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "coin",
@@ -3343,6 +3655,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "sell",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "coin-vertical",
@@ -3361,6 +3674,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "sell",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "coins",
@@ -3379,6 +3693,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "sell",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "columns",
@@ -3386,6 +3701,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["2", "shapes", "polygons", "box", "stack", "list", "table", "cards"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "command",
@@ -3401,6 +3717,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "saint john's arms",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "compass",
@@ -3408,6 +3725,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["navigation", "directions", "maps", "safari", "apple"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "computer-tower",
@@ -3415,6 +3733,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["desktop", "pc", "imac"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "confetti",
@@ -3422,6 +3741,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["*new*", "tada", "party", "emoji"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "cookie",
@@ -3433,6 +3753,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["privacy", "dessert", "food", "dining"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "cooking-pot",
@@ -3440,6 +3761,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["stew", "kitchen", "steaming", "restaurants", "food", "dining"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "copy",
@@ -3447,6 +3769,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["duplicated", "copied", "clipboard"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "copy-simple",
@@ -3454,6 +3777,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["duplicated", "copied", "clipboard"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "copyleft",
@@ -3461,6 +3785,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MEDIA],
     tags: ["*new*", "🄯", "intellectual property", "copr.", "symbol"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "copyright",
@@ -3468,6 +3793,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MEDIA],
     tags: ["©", "intellectual property", "copr.", "symbol"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "corners-in",
@@ -3475,6 +3801,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["collapse", "windowed", "minimized"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "corners-out",
@@ -3482,6 +3809,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["expand", "fullscreen", "maximized"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cpu",
@@ -3489,6 +3817,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT],
     tags: ["processor", "microchip", "computer", "circuit"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "credit-card",
@@ -3505,6 +3834,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "swipe",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "crop",
@@ -3512,6 +3842,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["photography", "clip", "screenshots"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "crosshair",
@@ -3519,6 +3850,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["geolocation", "gps", "aiming", "targeting"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "crosshair-simple",
@@ -3526,6 +3858,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["geolocation", "gps", "aiming", "targeting"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "crown",
@@ -3533,6 +3866,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["king", "queen", "royalty", "monarch", "ruler", "leader"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "crown-simple",
@@ -3540,6 +3874,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["king", "queen", "royalty", "monarch", "ruler", "leader"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "cube",
@@ -3547,6 +3882,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["square", "box", "3d", "volume", "blocks"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "currency-btc",
@@ -3563,6 +3899,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "purchase",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "currency-circle-dollar",
@@ -3570,6 +3907,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "usd", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-cny",
@@ -3577,6 +3915,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "yuan", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-dollar",
@@ -3584,6 +3923,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "usd", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-dollar-simple",
@@ -3591,6 +3931,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "usd", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-eth",
@@ -3607,6 +3948,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "purchase",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "currency-eur",
@@ -3614,6 +3956,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "euros", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-gbp",
@@ -3621,6 +3964,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "pounds sterling", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-inr",
@@ -3628,6 +3972,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "rupees", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-jpy",
@@ -3635,6 +3980,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "yen", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-krw",
@@ -3642,6 +3988,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "won", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "currency-kzt",
@@ -3657,6 +4004,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "purchase",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "currency-ngn",
@@ -3672,6 +4020,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "purchase",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "currency-rub",
@@ -3679,6 +4028,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["money", "rubles", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "cursor",
@@ -3686,6 +4036,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.SYSTEM],
     tags: ["pointer", "arrowhead", "mouse", "click"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "cursor-text",
@@ -3693,6 +4044,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "i-beam", "input", "select"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "cylinder",
@@ -3700,6 +4052,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["*new*", "shapes", "tube"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "database",
@@ -3718,6 +4071,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "databases",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "desktop",
@@ -3725,6 +4079,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["computer", "pc", "imac", "tower"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "desktop-tower",
@@ -3732,6 +4087,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["computer", "pc", "imac"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "detective",
@@ -3739,6 +4095,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE, IconCategory.SYSTEM],
     tags: ["*new*", "incognito", "police", "law enforcement", "spy", "secret"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "device-mobile",
@@ -3746,6 +4103,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "device-mobile-camera",
@@ -3753,6 +4111,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "device-mobile-speaker",
@@ -3760,6 +4119,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "device-tablet",
@@ -3767,6 +4127,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "device-tablet-camera",
@@ -3774,6 +4135,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "device-tablet-speaker",
@@ -3781,6 +4143,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "diamond",
@@ -3798,6 +4161,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "gaming",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "diamonds-four",
@@ -3805,6 +4169,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["*new*", "shapes", "grid"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "dice-five",
@@ -3812,6 +4177,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "5"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dice-four",
@@ -3819,6 +4185,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "4"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dice-one",
@@ -3826,6 +4193,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "1"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dice-six",
@@ -3833,6 +4201,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "6"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dice-three",
@@ -3840,6 +4209,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "3"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dice-two",
@@ -3847,6 +4217,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["die", "rolling", "gamble", "gambling", "casino", "gaming", "2"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "disc",
@@ -3858,6 +4229,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["cd-rom", "compact disk", "album", "record"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "discord-logo",
@@ -3865,6 +4237,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "messages", "messaging", "chat"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "divide",
@@ -3880,6 +4253,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dog",
@@ -3887,6 +4261,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["pets", "animals", "puppy"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "door",
@@ -3894,6 +4269,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["entrance", "exit"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "dots-nine",
@@ -3901,6 +4277,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["grid", "circles", "shapes", "polygons", "9"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-six",
@@ -3908,6 +4285,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["drag handle", "knurling", "circles", "shapes", "polygons", "6"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "dots-six-vertical",
@@ -3915,6 +4293,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["drag handle", "knurling", "circles", "shapes", "polygons", "6"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "dots-three",
@@ -3932,6 +4311,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-three-circle",
@@ -3949,6 +4329,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-three-circle-vertical",
@@ -3966,6 +4347,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-three-outline",
@@ -3983,6 +4365,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-three-outline-vertical",
@@ -4000,6 +4383,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dots-three-vertical",
@@ -4017,6 +4401,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "more",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "download",
@@ -4034,6 +4419,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disk",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "download-simple",
@@ -4052,6 +4438,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "import",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "dribbble-logo",
@@ -4059,6 +4446,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DESIGN],
     tags: ["logos", "round", "basketball", "sports", "design"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "drop",
@@ -4074,6 +4462,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "blur",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "drop-half",
@@ -4094,6 +4483,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "brightness",
     ],
     published_in: 1.1,
+    updated_in: 1.4,
   },
   {
     name: "drop-half-bottom",
@@ -4115,6 +4505,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "brightness",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "ear",
@@ -4122,6 +4513,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["hearing", "audio", "sound"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "ear-slash",
@@ -4129,6 +4521,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["hearing", "audio", "sound", "mute", "accessible"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "egg",
@@ -4136,6 +4529,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.NATURE],
     tags: ["*new*", "chicken", "food", "meal", "baby", "hatch"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "egg-crack",
@@ -4143,6 +4537,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.NATURE],
     tags: ["*new*", "chicken", "food", "meal", "baby", "hatch", "break"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "eject",
@@ -4150,6 +4545,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["disconnect"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "eject-simple",
@@ -4157,6 +4553,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["disconnect"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "envelope",
@@ -4164,6 +4561,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["mail", "email", "send", "sent", "message", "post", "letter"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "envelope-open",
@@ -4180,6 +4578,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "letter",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "envelope-simple",
@@ -4187,6 +4586,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["mail", "email", "send", "sent", "message", "post", "letter"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "envelope-simple-open",
@@ -4203,6 +4603,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "letter",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "equalizer",
@@ -4219,6 +4620,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "deezer",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "equals",
@@ -4234,6 +4636,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "eraser",
@@ -4241,6 +4644,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["write", "writing", "editing", "undo", "deleted"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "exam",
@@ -4248,6 +4652,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["*new*", "text", "examination", "paper", "school", "grade"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "export",
@@ -4255,6 +4660,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["share", "send to", "arrows"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "eye",
@@ -4262,6 +4668,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["visible", "hidden", "show", "hide", "visibility", "view"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "eye-closed",
@@ -4278,6 +4685,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "eye-slash",
@@ -4296,6 +4704,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "eyedropper",
@@ -4307,6 +4716,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["colors", "color picker", "sample", "arts"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "eyedropper-sample",
@@ -4318,6 +4728,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "colors", "color picker", "arts"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "eyeglasses",
@@ -4325,6 +4736,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.OBJECTS],
     tags: ["*new*", "vision", "spectacles"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "face-mask",
@@ -4332,6 +4744,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH],
     tags: ["ppe", "facemask", "covid-19", "coronavirus", "flu", "cold"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "facebook-logo",
@@ -4339,6 +4752,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "social media"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "factory",
@@ -4346,6 +4760,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP],
     tags: ["industry", "manufacture", "buildings", "places", "locations"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "faders",
@@ -4362,6 +4777,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "faders-horizontal",
@@ -4378,6 +4794,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "fast-forward",
@@ -4385,6 +4802,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["audio", "music", "seek", "scrub", "scan", "ahead", "skip"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "fast-forward-circle",
@@ -4392,6 +4810,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["audio", "music", "seek", "scrub", "scan", "ahead", "skip"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "figma-logo",
@@ -4408,6 +4827,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "prototyping",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file",
@@ -4415,6 +4835,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "save", "write", "page"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-arrow-down",
@@ -4432,6 +4853,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrowhead",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-arrow-up",
@@ -4449,6 +4871,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrowhead",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "file-audio",
@@ -4456,6 +4879,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.MEDIA],
     tags: ["*new*", "documents", "music", "sound"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-cloud",
@@ -4463,6 +4887,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "documents", "sync"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-code",
@@ -4474,6 +4899,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-css",
@@ -4485,6 +4911,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-csv",
@@ -4492,6 +4919,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "documents", "data"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-doc",
@@ -4499,6 +4927,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "documents", "word", "microsoft"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-dotted",
@@ -4506,6 +4935,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "browse", "draft", "open"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "file-html",
@@ -4517,6 +4947,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-image",
@@ -4524,6 +4955,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.MEDIA],
     tags: ["*new*", "documents", "pictures", "photograph"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-jpg",
@@ -4531,6 +4963,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.MEDIA],
     tags: ["*new*", "documents", "pictures", "photograph", "jpeg"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-js",
@@ -4542,6 +4975,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code", "javascript"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-jsx",
@@ -4553,6 +4987,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code", "javascript"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-lock",
@@ -4560,6 +4995,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "documents", "secure", "locked", "private"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-minus",
@@ -4567,6 +5003,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "delete", "write", "remove", "-"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-pdf",
@@ -4574,6 +5011,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "acrobat"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "file-plus",
@@ -4581,6 +5019,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "save", "write", "add", "new", "create", "+"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-png",
@@ -4588,6 +5027,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.MEDIA],
     tags: ["*new*", "documents", "pictures", "photograph"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-ppt",
@@ -4595,6 +5035,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "documents", "powerpoint", "microsoft"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-rs",
@@ -4606,6 +5047,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code", "rust"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-search",
@@ -4613,6 +5055,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "find", "locate", "browse", "missing"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-text",
@@ -4620,6 +5063,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "save", "write"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-ts",
@@ -4631,6 +5075,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code", "typescript"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-tsx",
@@ -4642,6 +5087,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code", "typescript"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-video",
@@ -4649,6 +5095,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.MEDIA],
     tags: ["*new*", "documents", "movie"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-vue",
@@ -4660,6 +5107,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "documents", "code"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-x",
@@ -4667,6 +5115,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "files", "cancelled", "deleted", "removed", "errors"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "file-xls",
@@ -4674,6 +5123,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "documents", "excel", "microsoft"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "file-zip",
@@ -4681,6 +5131,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "documents", "archive", "compression"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "files",
@@ -4688,6 +5139,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["documents", "open", "library"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "film-script",
@@ -4695,6 +5147,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MEDIA],
     tags: ["*new*", "screenplay", "movie"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "film-slate",
@@ -4702,6 +5155,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["*new*", "clapper", "movie"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "film-strip",
@@ -4709,6 +5163,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["camera", "photography", "darkroom", "movie", "analog"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "fingerprint",
@@ -4726,6 +5181,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "fingerprint-simple",
@@ -4743,6 +5199,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "finn-the-human",
@@ -4750,6 +5207,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES],
     tags: ["adventure time", "cartoons", "television", "tv", "character"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "fire",
@@ -4757,6 +5215,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.WEATHER],
     tags: ["flame", "burning", "match", "lighter"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "fire-simple",
@@ -4764,6 +5223,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.WEATHER],
     tags: ["flame", "burning", "match", "lighter"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "first-aid",
@@ -4780,6 +5240,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "doctor",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "first-aid-kit",
@@ -4795,6 +5256,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "doctor",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "fish",
@@ -4802,6 +5264,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.COMMERCE],
     tags: ["animals", "pets", "food", "seafood", "restaurants", "dining"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "fish-simple",
@@ -4809,6 +5272,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.COMMERCE],
     tags: ["animals", "pets", "food", "seafood", "restaurants", "dining"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "flag",
@@ -4816,6 +5280,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["country", "countries", "finished", "completed", "flags"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "flag-banner",
@@ -4831,6 +5296,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "swallowtail",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "flag-checkered",
@@ -4838,6 +5304,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS, IconCategory.GAMES],
     tags: ["*new*", "flags", "race", "racing", "finish line"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "flame",
@@ -4845,6 +5312,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.WEATHER],
     tags: ["fire", "burning", "match", "lighter"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "flashlight",
@@ -4852,6 +5320,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["torch", "find", "search", "locate"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "flask",
@@ -4859,6 +5328,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.NATURE],
     tags: ["beaker", "science", "chemistry", "experiment", "erlenmeyer"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "floppy-disk",
@@ -4875,6 +5345,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "write",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "floppy-disk-back",
@@ -4891,6 +5362,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "write",
     ],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "flow-arrow",
@@ -4898,6 +5370,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS, IconCategory.DESIGN, IconCategory.OFFICE],
     tags: ["flowchart", "arrowhead"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "flower",
@@ -4905,6 +5378,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["plants", "green", "environmental"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "flower-lotus",
@@ -4912,6 +5386,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["plants", "green", "environmental", "spirituality"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "flying-saucer",
@@ -4919,6 +5394,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["*new*", "ufo", "space", "aliens", "extra terrestrial", "sci-fi"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder",
@@ -4926,6 +5402,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["directory", "directories", "files", "folders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-dotted",
@@ -4941,6 +5418,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "temporary",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-lock",
@@ -4956,6 +5434,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "secure",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-minus",
@@ -4971,6 +5450,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "-",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-notch",
@@ -4978,6 +5458,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["directory", "directories", "files", "folders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-notch-minus",
@@ -4993,6 +5474,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "-",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-notch-open",
@@ -5000,6 +5482,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["directory", "directories", "files", "folders", "load"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-notch-plus",
@@ -5017,6 +5500,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-open",
@@ -5024,6 +5508,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["directory", "directories", "files", "folders", "load"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-plus",
@@ -5041,6 +5526,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-simple",
@@ -5048,6 +5534,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["directory", "directories", "files", "folders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-simple-dotted",
@@ -5063,6 +5550,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "temporary",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-simple-lock",
@@ -5078,6 +5566,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "secure",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-simple-minus",
@@ -5093,6 +5582,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "-",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-simple-plus",
@@ -5110,6 +5600,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "folder-simple-star",
@@ -5125,6 +5616,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "starred",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-simple-user",
@@ -5132,6 +5624,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "directory", "directories", "files", "folders", "personal"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-star",
@@ -5147,6 +5640,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "starred",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folder-user",
@@ -5154,6 +5648,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "directory", "directories", "files", "folders", "personal"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "folders",
@@ -5169,6 +5664,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "duplicated",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "football",
@@ -5176,6 +5672,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports", "american football", "nfl"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "fork-knife",
@@ -5183,6 +5680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["food", "meal", "eating", "restaurants", "dining", "utensils"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "frame-corners",
@@ -5197,6 +5695,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "capture",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "framer-logo",
@@ -5204,6 +5703,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DESIGN],
     tags: ["logos", "interface", "ui", "motion", "prototype", "prototyping"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "function",
@@ -5211,6 +5711,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT],
     tags: ["*new*", "mathematics", "arithmetic", "f-stop"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "funnel",
@@ -5218,6 +5719,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.OBJECTS],
     tags: ["filters", "refine", "sorting"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "funnel-simple",
@@ -5225,6 +5727,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.OBJECTS],
     tags: ["filters", "refine", "sorting"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "game-controller",
@@ -5238,6 +5741,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "microsoft xbox",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "gas-pump",
@@ -5245,6 +5749,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["gas station", "petrol", "fuel", "gasoline"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gauge",
@@ -5263,6 +5768,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "performance",
     ],
     published_in: 1.2,
+    updated_in: 1.4,
   },
   {
     name: "gear",
@@ -5279,6 +5785,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "mechanical",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "gear-six",
@@ -5295,6 +5802,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "mechanical",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "gender-female",
@@ -5302,6 +5810,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["woman", "feminine", "venus"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gender-intersex",
@@ -5309,6 +5818,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["transgender", "non-binary"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gender-male",
@@ -5316,6 +5826,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["man", "masculine", "mars"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gender-neuter",
@@ -5323,6 +5834,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["agender", "non-binary", "asexual"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gender-nonbinary",
@@ -5330,6 +5842,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["intersex", "non-binary"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gender-transgender",
@@ -5337,6 +5850,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["intersex", "non-binary"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "ghost",
@@ -5344,6 +5858,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["pac-man", "spirit", "scary", "halloween"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "gif",
@@ -5351,6 +5866,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["gifs", ".gif", "giphy"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "gift",
@@ -5358,6 +5874,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["presents", "holiday", "birthday"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-branch",
@@ -5372,6 +5889,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "branches",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-commit",
@@ -5386,6 +5904,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "commits",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-diff",
@@ -5401,6 +5920,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "compare",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-fork",
@@ -5415,6 +5935,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "split",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-merge",
@@ -5429,6 +5950,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "split",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "git-pull-request",
@@ -5443,6 +5965,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "merge request",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "github-logo",
@@ -5457,6 +5980,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "branches",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "gitlab-logo",
@@ -5470,6 +5994,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "branches",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "gitlab-logo-simple",
@@ -5483,6 +6008,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "branches",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "globe",
@@ -5503,6 +6029,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "geography",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "globe-hemisphere-east",
@@ -5527,6 +6054,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "australia",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "globe-hemisphere-west",
@@ -5549,6 +6077,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "south america",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "globe-simple",
@@ -5569,6 +6098,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "geography",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "globe-stand",
@@ -5588,6 +6118,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "geography",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "google-chrome-logo",
@@ -5595,6 +6126,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["*new*", "web browsers", "internet"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "google-logo",
@@ -5602,6 +6134,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["logos", "search engine", "phone", "mobile", "android"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "google-photos-logo",
@@ -5609,6 +6142,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.MEDIA],
     tags: ["*new*", "album", "pictures", "photography"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "google-play-logo",
@@ -5626,6 +6160,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "android",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "google-podcasts-logo",
@@ -5633,6 +6168,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.MEDIA],
     tags: ["*new*", "audio"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "gradient",
@@ -5640,6 +6176,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["*new*", "fade", "ombre", "opacity"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "graduation-cap",
@@ -5656,6 +6193,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "graduate",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "graph",
@@ -5663,6 +6201,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.DEVELOPMENT],
     tags: ["*new*", "nodes", "tree"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "grid-four",
@@ -5681,6 +6220,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "excel",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hamburger",
@@ -5697,6 +6237,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "hand",
@@ -5704,6 +6245,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
     tags: ["pointers", "cursors", "emoji", "backhand"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hand-eye",
@@ -5711,6 +6253,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["*new*", "pointers", "cursors", "emoji", "hamsa", "evil eye"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "hand-fist",
@@ -5718,6 +6261,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["pointers", "cursors", "emoji", "power", "protest", "blm"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "hand-grabbing",
@@ -5725,6 +6269,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
     tags: ["pointers", "cursors", "emoji", "drag", "hold"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "hand-palm",
@@ -5741,6 +6286,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "5",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "hand-pointing",
@@ -5748,6 +6294,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
     tags: ["pointers", "cursors", "emoji", "fingers", "clicks", "mouse"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hand-soap",
@@ -5755,6 +6302,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH],
     tags: ["dispenser", "pump", "sanitizer", "disinfectant"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "hand-waving",
@@ -5762,6 +6310,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
     tags: ["pointers", "cursors", "emoji", "palm", "wave", "hello", "goodbye"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "handbag",
@@ -5769,6 +6318,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcases", "valises", "baggage", "purses"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "handbag-simple",
@@ -5776,6 +6326,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcases", "valises", "baggage", "purses"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "hands-clapping",
@@ -5783,6 +6334,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
     tags: ["emoji", "clap", "applause"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "handshake",
@@ -5790,6 +6342,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE, IconCategory.COMMERCE],
     tags: ["pointers", "cursors", "emoji", "deal", "agreement"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "hard-drive",
@@ -5808,6 +6361,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "databases",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hard-drives",
@@ -5826,6 +6380,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "databases",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hash",
@@ -5840,6 +6395,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "symbol",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hash-straight",
@@ -5854,6 +6410,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "symbol",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "headlights",
@@ -5861,6 +6418,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["brights", "high beams"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "headphones",
@@ -5868,6 +6426,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["music", "audio", "listening"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "headset",
@@ -5875,6 +6434,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["music", "audio", "listening", "gaming", "voice chat", "microphone"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "heart",
@@ -5899,6 +6459,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "emoji",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "heart-break",
@@ -5906,6 +6467,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["*new*", "love", "hate", "crack", "split", "divorce", "emoji"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "heart-straight",
@@ -5930,6 +6492,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "emoji",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "heart-straight-break",
@@ -5937,6 +6500,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["*new*", "love", "hate", "crack", "split", "divorce", "emoji"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "heartbeat",
@@ -5944,6 +6508,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.SYSTEM],
     tags: ["wellness", "healthy", "ecg", "ekg", "vitals", "monitor"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "hexagon",
@@ -5951,6 +6516,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["6", "shapes", "polygons"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "highlighter-circle",
@@ -5958,6 +6524,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "drawing"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "horse",
@@ -5965,6 +6532,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH, IconCategory.NATURE],
     tags: ["animals", "equestrian", "chess", "knight", "sports"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass",
@@ -5981,6 +6549,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-high",
@@ -5997,6 +6566,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-low",
@@ -6013,6 +6583,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-medium",
@@ -6029,6 +6600,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-simple",
@@ -6045,6 +6617,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-simple-high",
@@ -6061,6 +6634,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-simple-low",
@@ -6077,6 +6651,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "hourglass-simple-medium",
@@ -6093,6 +6668,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "progress",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "house",
@@ -6100,6 +6676,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["homes", "buildings", "places", "locations"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "house-line",
@@ -6107,6 +6684,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["homes", "buildings", "places", "locations"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "house-simple",
@@ -6114,6 +6692,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.SYSTEM],
     tags: ["homes", "buildings", "places", "locations"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "identification-badge",
@@ -6121,6 +6700,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["license", "credentials", "nametag", "user", "verification"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "identification-card",
@@ -6135,6 +6715,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "verification",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "image",
@@ -6149,6 +6730,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "landscape",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "image-square",
@@ -6163,6 +6745,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "landscape",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "infinity",
@@ -6177,6 +6760,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "∞",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "info",
@@ -6184,6 +6768,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["information", "help", "support"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "instagram-logo",
@@ -6191,6 +6776,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "social media", "photography", "camera"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "intersect",
@@ -6206,6 +6792,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "intersection",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "jeep",
@@ -6224,6 +6811,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "traveling",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "kanban",
@@ -6239,6 +6827,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "agile",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "key",
@@ -6256,6 +6845,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "key-return",
@@ -6263,6 +6853,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["keyboard", "enter"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "keyboard",
@@ -6270,6 +6861,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["typing", "type", "keys", "input"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "keyhole",
@@ -6290,6 +6882,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "knife",
@@ -6305,6 +6898,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "utensils",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "ladder",
@@ -6312,6 +6906,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["*new*", "stairs", "steps", "climbing"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "ladder-simple",
@@ -6319,6 +6914,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["*new*", "stairs", "steps", "climbing"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "lamp",
@@ -6326,6 +6922,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["light", "furniture", "appliances"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "laptop",
@@ -6333,6 +6930,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["computer", "notebook", "pc", "macbook"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "layout",
@@ -6340,6 +6938,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["wireframe", "sidebar", "ui", "interface"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "leaf",
@@ -6355,6 +6954,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "environmental",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lifebuoy",
@@ -6375,6 +6975,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "ships",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "lightbulb",
@@ -6382,6 +6983,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["flashlight", "bulbs", "lighting", "led", "energy", "idea"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lightbulb-filament",
@@ -6389,6 +6991,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["flashlight", "bulbs", "lighting", "led", "energy", "idea"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "lightning",
@@ -6406,6 +7009,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "electricity",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lightning-slash",
@@ -6421,6 +7025,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "line-segment",
@@ -6428,6 +7033,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["shapes", "drawing", "path", "pen"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "line-segments",
@@ -6435,6 +7041,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["shapes", "drawing", "path", "pen"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "link",
@@ -6442,6 +7049,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "link-break",
@@ -6457,6 +7065,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "broken",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "link-simple",
@@ -6464,6 +7073,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "link-simple-break",
@@ -6479,6 +7089,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "broken",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "link-simple-horizontal",
@@ -6486,6 +7097,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "link-simple-horizontal-break",
@@ -6501,6 +7113,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "broken",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "linkedin-logo",
@@ -6508,6 +7121,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "jobs", "employment", "social media"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "linux-logo",
@@ -6515,6 +7129,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["*new*", "penguin", "computer", "animals"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "list",
@@ -6532,6 +7147,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "checklist",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "list-bullets",
@@ -6539,6 +7155,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR],
     tags: ["ul", "unordered list", "bulleted list", "checklist"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "list-checks",
@@ -6546,6 +7163,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["*new*", "checklist", "todo"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "list-dashes",
@@ -6553,6 +7171,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR],
     tags: ["ul", "unordered list", "dashed list", "checklist"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "list-numbers",
@@ -6560,6 +7179,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR],
     tags: ["ol", "ordered list", "numbered list", "checklist"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "list-plus",
@@ -6575,6 +7195,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock",
@@ -6594,6 +7215,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-key",
@@ -6613,6 +7235,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-key-open",
@@ -6631,6 +7254,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "privacy",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-laminated",
@@ -6650,6 +7274,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-laminated-open",
@@ -6669,6 +7294,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-open",
@@ -6687,6 +7313,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "privacy",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-simple",
@@ -6706,6 +7333,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "lock-simple-open",
@@ -6725,6 +7353,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "private",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "magic-wand",
@@ -6732,6 +7361,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["selection", "wizard", "games"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "magnet",
@@ -6739,6 +7369,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["magnetism", "science", "physics"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "magnet-straight",
@@ -6746,6 +7377,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["magnetism", "science", "physics"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "magnifying-glass",
@@ -6753,6 +7385,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["search", "find", "locate", "query", "inspect"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "magnifying-glass-minus",
@@ -6760,6 +7393,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["search", "find", "locate", "query", "inspect", "zoom out", "-"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "magnifying-glass-plus",
@@ -6767,6 +7401,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["search", "find", "locate", "query", "inspect", "zoom in", "+"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "map-pin",
@@ -6774,6 +7409,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["maps", "places", "markers", "pins", "locations"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "map-pin-line",
@@ -6781,6 +7417,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["maps", "places", "markers", "pins", "locations"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "map-trifold",
@@ -6788,6 +7425,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["maps", "places", "locations", "cartography", "geography"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "marker-circle",
@@ -6795,6 +7433,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "drawing"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "martini",
@@ -6813,6 +7452,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "mask-happy",
@@ -6820,6 +7460,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.GAMES],
     tags: ["*new*", "theater", "costume", "smile", "smiling", "thalia"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "mask-sad",
@@ -6827,6 +7468,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.GAMES],
     tags: ["*new*", "theater", "costume", "cry", "crying", "melpomene"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "math-operations",
@@ -6858,6 +7500,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "=",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "medal",
@@ -6865,6 +7508,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["ribbons", "winning", "victory", "awards", "rosette"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "medium-logo",
@@ -6872,6 +7516,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["logos", "reading", "writing", "news", "social media"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "megaphone",
@@ -6879,6 +7524,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
     tags: ["bullhorn", "announcements", "loudspeaker", "broadcast"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "megaphone-simple",
@@ -6886,6 +7532,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
     tags: ["bullhorn", "announcements", "loudspeaker", "broadcast"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "messenger-logo",
@@ -6893,6 +7540,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "facebook", "social media"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "microphone",
@@ -6904,6 +7552,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["audio", "recording", "music", "sound", "podcast", "studio"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "microphone-slash",
@@ -6924,6 +7573,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "microphone-stage",
@@ -6943,6 +7593,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "concert",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "microsoft-excel-logo",
@@ -6950,6 +7601,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.OFFICE],
     tags: ["*new*", "tables", "spreadsheets", "tabular"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "microsoft-powerpoint-logo",
@@ -6957,6 +7609,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.OFFICE],
     tags: ["*new*", "slides", "slideshow", "presentation"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "microsoft-teams-logo",
@@ -6964,6 +7617,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["*new*", "chat", "video conference"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "microsoft-word-logo",
@@ -6971,6 +7625,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["*new*", "documents", "word processor", "doc", "docx"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "minus",
@@ -6989,6 +7644,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "minus-circle",
@@ -7008,6 +7664,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "round",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "money",
@@ -7015,6 +7672,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["cash", "dollars", "paper bills", "payment", "paying", "purchase"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "monitor",
@@ -7022,6 +7680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["screen", "television", "tv", "displays"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "monitor-play",
@@ -7037,6 +7696,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "movie",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "moon",
@@ -7058,6 +7718,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "stargazing",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "moon-stars",
@@ -7076,6 +7737,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "constellation",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "mountains",
@@ -7083,6 +7745,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["*new*", "hills", "outdoors", "terrain", "geology", "adventure"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "mouse",
@@ -7090,6 +7753,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["clicks", "input"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "mouse-simple",
@@ -7097,6 +7761,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["clicks", "input"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "music-note",
@@ -7104,6 +7769,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["songs", "audio", "playlist", "albums"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "music-note-simple",
@@ -7111,6 +7777,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["songs", "audio", "playlist", "albums"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "music-notes",
@@ -7118,6 +7785,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["songs", "audio", "playlist", "albums"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "music-notes-plus",
@@ -7125,6 +7793,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["*new*", "songs", "audio", "playlist", "albums", "add"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "music-notes-simple",
@@ -7132,6 +7801,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["songs", "audio", "playlist", "albums"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "navigation-arrow",
@@ -7139,6 +7809,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["location", "directions", "compass", "gps"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "needle",
@@ -7146,6 +7817,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.COMMERCE],
     tags: ["*new*", "sewing", "thread", "awl", "tailor"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "newspaper",
@@ -7153,6 +7825,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["reading", "writing", "journals", "periodicals"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "newspaper-clipping",
@@ -7160,6 +7833,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["reading", "writing", "journals", "periodicals"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "note",
@@ -7167,6 +7841,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "note-blank",
@@ -7174,6 +7849,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "note-pencil",
@@ -7181,6 +7857,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "notebook",
@@ -7196,6 +7873,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "logbook",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "notepad",
@@ -7211,6 +7889,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "diary",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "notification",
@@ -7218,6 +7897,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["badge", "pip"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "number-circle-eight",
@@ -7234,6 +7914,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-five",
@@ -7250,6 +7931,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-four",
@@ -7266,6 +7948,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-nine",
@@ -7282,6 +7965,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-one",
@@ -7298,6 +7982,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-seven",
@@ -7314,6 +7999,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-six",
@@ -7330,6 +8016,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-three",
@@ -7346,6 +8033,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-two",
@@ -7362,6 +8050,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-circle-zero",
@@ -7378,6 +8067,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-eight",
@@ -7393,6 +8083,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-five",
@@ -7408,6 +8099,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-four",
@@ -7423,6 +8115,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-nine",
@@ -7438,6 +8131,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-one",
@@ -7453,6 +8147,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-seven",
@@ -7468,6 +8163,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-six",
@@ -7483,6 +8179,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-eight",
@@ -7498,6 +8195,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-five",
@@ -7513,6 +8211,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-four",
@@ -7528,6 +8227,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-nine",
@@ -7543,6 +8243,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-one",
@@ -7558,6 +8259,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-seven",
@@ -7573,6 +8275,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-six",
@@ -7588,6 +8291,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-three",
@@ -7603,6 +8307,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-two",
@@ -7618,6 +8323,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-square-zero",
@@ -7633,6 +8339,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-three",
@@ -7648,6 +8355,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-two",
@@ -7663,6 +8371,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "number-zero",
@@ -7678,6 +8387,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "nut",
@@ -7685,6 +8395,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
     tags: ["bolts", "screws", "machinery", "tools", "hexagon"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "ny-times-logo",
@@ -7700,6 +8411,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "newspaper",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "octagon",
@@ -7707,6 +8419,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["8", "shapes", "polygons"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "option",
@@ -7714,6 +8427,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.EDITOR],
     tags: ["*new*", "keyboard", "shortcut", "modifier"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "package",
@@ -7731,6 +8445,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "shipping",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "paint-brush",
@@ -7742,6 +8457,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["colors", "color picker", "arts"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "paint-brush-broad",
@@ -7753,6 +8469,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["fill", "colors", "color picker", "arts"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "paint-brush-household",
@@ -7764,6 +8481,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["colors", "color picker", "arts"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "paint-bucket",
@@ -7775,6 +8493,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["paintbucket", "colors", "color picker", "fill", "arts"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "paint-roller",
@@ -7786,6 +8505,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["colors", "color picker", "fill", "arts", "theme"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "palette",
@@ -7797,6 +8517,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["paint", "colors", "color picker", "arts"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "paper-plane",
@@ -7817,6 +8538,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "games",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "paper-plane-right",
@@ -7837,6 +8559,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "games",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "paper-plane-tilt",
@@ -7857,6 +8580,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "games",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "paperclip",
@@ -7869,6 +8593,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["attachments", "mail", "email", "office"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "paperclip-horizontal",
@@ -7881,6 +8606,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["attachments", "mail", "email", "office"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "parachute",
@@ -7888,6 +8614,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.DEVELOPMENT],
     tags: ["*new*", "skydiving", "safety"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "password",
@@ -7905,6 +8632,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "path",
@@ -7920,6 +8648,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "destination",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pause",
@@ -7927,6 +8656,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "resume", "start", "stop"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pause-circle",
@@ -7934,6 +8664,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "resume", "start", "stop", "round"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "paw-print",
@@ -7953,6 +8684,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "veterinarian",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "peace",
@@ -7960,6 +8692,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["love", "hippies", "peace sign", "symbols"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pen",
@@ -7967,6 +8700,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["ink", "write", "writing", "editing", "sign", "signature"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pen-nib",
@@ -7983,6 +8717,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "illustrator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pen-nib-straight",
@@ -7999,6 +8734,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "illustrator",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "pencil",
@@ -8006,6 +8742,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "sign", "signature"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "pencil-circle",
@@ -8013,6 +8750,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "sign", "signature"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "pencil-line",
@@ -8020,6 +8758,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "sign", "signature"],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "pencil-simple",
@@ -8027,6 +8766,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["write", "writing", "editing", "sign", "signature"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "pencil-simple-line",
@@ -8034,6 +8774,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["*new*", "write", "writing", "editing", "sign", "signature"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "percent",
@@ -8050,6 +8791,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "person",
@@ -8068,6 +8810,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "user",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "person-simple",
@@ -8088,6 +8831,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "exercise",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "person-simple-run",
@@ -8108,6 +8852,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "exercise",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "person-simple-walk",
@@ -8128,6 +8873,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "exercise",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "perspective",
@@ -8135,6 +8881,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "3d", "skew", "warp", "trapezoid"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "phone",
@@ -8142,6 +8889,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-call",
@@ -8149,6 +8897,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "calling", "ringing", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-disconnect",
@@ -8156,6 +8905,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "hang up", "disconnected", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-incoming",
@@ -8163,6 +8913,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "calling", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-outgoing",
@@ -8170,6 +8921,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "calling", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-slash",
@@ -8184,6 +8936,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "talk",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phone-x",
@@ -8191,6 +8944,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["calls", "missed", "errors", "telephone", "landline", "talk"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "phosphor-logo",
@@ -8198,6 +8952,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND],
     tags: ["logos"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "piano-keys",
@@ -8205,6 +8960,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
     tags: ["*new*", "music", "instrument", "keyboard"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "picture-in-picture",
@@ -8212,6 +8968,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["pip", "pop-out", "minimize", "maximize"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "pill",
@@ -8228,6 +8985,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "drugs",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "pinterest-logo",
@@ -8235,6 +8993,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "vision board", "mood board", "social media"],
     published_in: 1.2,
+    updated_in: 1.4,
   },
   {
     name: "pinwheel",
@@ -8242,6 +9001,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["*new*", "toys", "whirligig"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "pizza",
@@ -8257,6 +9017,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "placeholder",
@@ -8264,6 +9025,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["empty", "notdef", "tofu", "rectangle slash", "missing"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "planet",
@@ -8271,6 +9033,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["saturn", "world", "globe", "astronomy", "space"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "play",
@@ -8278,6 +9041,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "resume", "start"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "play-circle",
@@ -8285,6 +9049,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "resume", "start", "round"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "playlist",
@@ -8292,6 +9057,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "queue"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "plug",
@@ -8299,6 +9065,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["*new*", "outlet", "socket", "plugin", "integration"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "plugs",
@@ -8313,6 +9080,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disconnected",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "plugs-connected",
@@ -8320,6 +9088,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["*new*", "outlet", "socket", "plugin", "integration"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "plus",
@@ -8331,6 +9100,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["addition", "sum", "mathematics", "arithmetic", "calculator", "+"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "plus-circle",
@@ -8350,6 +9120,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "plus-minus",
@@ -8371,6 +9142,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "±",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "poker-chip",
@@ -8378,6 +9150,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES],
     tags: ["chips", "tokens", "cards", "gambling", "casino"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "police-car",
@@ -8385,6 +9158,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["*new*", "vehicles", "cars", "automobiles", "law enforcement"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "polygon",
@@ -8392,6 +9166,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["shapes", "drawing"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "popcorn",
@@ -8399,6 +9174,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.COMMERCE],
     tags: ["*new*", "food", "movies", "theater"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "power",
@@ -8415,6 +9191,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "power switch",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "prescription",
@@ -8430,6 +9207,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "doctor",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "presentation",
@@ -8445,6 +9223,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "meeting",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "presentation-chart",
@@ -8462,6 +9241,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "meeting",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "printer",
@@ -8469,6 +9249,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["printing"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "prohibit",
@@ -8483,6 +9264,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "do not enter",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "prohibit-inset",
@@ -8497,6 +9279,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "do not enter",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "projector-screen",
@@ -8513,6 +9296,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "projector-screen-chart",
@@ -8530,6 +9314,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "analysis",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "push-pin",
@@ -8537,6 +9322,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["favorites", "favorited", "pushpin"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "push-pin-simple",
@@ -8544,6 +9330,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["favorites", "favorited", "pushpin"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "push-pin-simple-slash",
@@ -8551,6 +9338,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["favorites", "favorited", "pushpin", "disabled"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "push-pin-slash",
@@ -8558,6 +9346,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["favorites", "favorited", "pushpin", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "puzzle-piece",
@@ -8565,6 +9354,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.DEVELOPMENT],
     tags: ["board game", "element", "component", "extension", "plugin"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "qr-code",
@@ -8572,6 +9362,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["upc", "barcode", "products", "shopping", "scanner"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "question",
@@ -8579,6 +9370,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["information", "help", "support", "questions"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "queue",
@@ -8586,6 +9378,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "playlist"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "quotes",
@@ -8597,6 +9390,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["quoations", "quotation marks", "double-quotes", "writing", "books"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "radical",
@@ -8613,6 +9407,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "radio",
@@ -8624,6 +9419,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["broadcast", "fm", "am", "xm", "transmitter", "receiver"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "radio-button",
@@ -8631,6 +9427,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["*new*", "input", "checkbox", "checked"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "rainbow",
@@ -8638,6 +9435,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "rainstorm", "arc", "pride", "lgbtq+", "leprechaun"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "rainbow-cloud",
@@ -8654,6 +9452,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "leprechaun",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "receipt",
@@ -8661,6 +9460,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
     tags: ["purchased", "money", "clipping", "expenses"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "record",
@@ -8668,6 +9468,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "recording", "recorder", "voice memo"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rectangle",
@@ -8675,6 +9476,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["4", "shapes", "polygons", "box"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "recycle",
@@ -8682,6 +9484,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.ARROWS, IconCategory.NATURE],
     tags: ["recycling", "trash", "environmental", "green"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "reddit-logo",
@@ -8689,6 +9492,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "subreddit", "snoo", "social media"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "repeat",
@@ -8696,6 +9500,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "recycle"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "repeat-once",
@@ -8703,6 +9508,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "recycle"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rewind",
@@ -8720,6 +9526,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "reverse",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "rewind-circle",
@@ -8737,6 +9544,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "reverse",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "robot",
@@ -8744,6 +9552,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
     tags: ["automaton", "artificial intelligence"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "rocket",
@@ -8755,6 +9564,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["spaceship", "launch", "deployment", "rocketship"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rocket-launch",
@@ -8766,6 +9576,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["spaceship", "flying", "blastoff", "deployment", "rocketship"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rows",
@@ -8773,6 +9584,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["2", "shapes", "polygons", "box", "stack", "list", "table", "cards"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "rss",
@@ -8780,6 +9592,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["radio", "broadcast", "web feed", "news", "aggregator"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rss-simple",
@@ -8787,6 +9600,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["radio", "broadcast", "web feed", "news", "aggregator"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "rug",
@@ -8794,6 +9608,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["*new*", "tapestry", "carpet"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "ruler",
@@ -8805,6 +9620,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["measure", "scale", "distance"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "scales",
@@ -8812,6 +9628,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["measure", "balance", "law", "justice", "government"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "scan",
@@ -8819,6 +9636,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["*new*", "upc", "barcode", "products", "shopping", "scanner"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "scissors",
@@ -8831,6 +9649,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["cut", "snip", "clipboard"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "screencast",
@@ -8845,6 +9664,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "tv",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "scribble-loop",
@@ -8852,6 +9672,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["doodles", "drawing", "sign", "signature"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "scroll",
@@ -8859,6 +9680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["*new*", "parchment", "paper", "script", "spell", "fantasy"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "selection",
@@ -8866,6 +9688,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis", "select"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-all",
@@ -8873,6 +9696,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis", "select all"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-background",
@@ -8880,6 +9704,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-foreground",
@@ -8887,6 +9712,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-inverse",
@@ -8894,6 +9720,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis", "invert"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-plus",
@@ -8901,6 +9728,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis", "add"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "selection-slash",
@@ -8908,6 +9736,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["marquis", "unselect"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "share",
@@ -8915,6 +9744,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["send to", "export", "arrows"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "share-network",
@@ -8922,6 +9752,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["send to", "export"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shield",
@@ -8941,6 +9772,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shield-check",
@@ -8958,6 +9790,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shield-checkered",
@@ -8975,6 +9808,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "shield-chevron",
@@ -8992,6 +9826,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shield-plus",
@@ -9009,6 +9844,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "shield-slash",
@@ -9029,6 +9865,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disabled",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shield-star",
@@ -9047,6 +9884,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "shield-warning",
@@ -9067,6 +9905,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "errors",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shopping-bag",
@@ -9082,6 +9921,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shopping-bag-open",
@@ -9097,6 +9937,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shopping-cart",
@@ -9113,6 +9954,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shopping-cart-simple",
@@ -9129,6 +9971,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shower",
@@ -9136,6 +9979,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS],
     tags: ["bath", "bathtub", "bathroom", "faucet"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "shuffle",
@@ -9143,6 +9987,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.ARROWS],
     tags: ["music", "audio", "randomize", "crossed"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shuffle-angular",
@@ -9150,6 +9995,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.ARROWS],
     tags: ["music", "audio", "randomize", "crossed"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "shuffle-simple",
@@ -9157,6 +10003,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.ARROWS],
     tags: ["music", "audio", "randomize", "crossed"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sidebar",
@@ -9164,6 +10011,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "left rail", "wireframe", "ui", "interface"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "sidebar-simple",
@@ -9171,6 +10019,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "left rail", "wireframe", "ui", "interface"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "sign-in",
@@ -9178,6 +10027,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["signin", "login", "log in", "enter"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sign-out",
@@ -9185,6 +10035,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["signout", "logout", "log out", "exit"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "signpost",
@@ -9199,6 +10050,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "transportation",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "sim-card",
@@ -9206,6 +10058,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
     tags: ["cellular", "cellphone", "mobile"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "sketch-logo",
@@ -9223,6 +10076,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "diamond",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "skip-back",
@@ -9240,6 +10094,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "previous",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "skip-back-circle",
@@ -9257,6 +10112,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "previous",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "skip-forward",
@@ -9264,6 +10120,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "seek", "scrub", "scan", "ahead", "next"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "skip-forward-circle",
@@ -9271,6 +10128,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "seek", "scrub", "scan", "ahead", "next"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "skull",
@@ -9278,6 +10136,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES],
     tags: ["*new*", "death", "dead", "kill"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "slack-logo",
@@ -9285,6 +10144,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "messaging"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "sliders",
@@ -9301,6 +10161,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sliders-horizontal",
@@ -9317,6 +10178,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley",
@@ -9324,6 +10186,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "happy", "grinning", "smiling"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-blank",
@@ -9331,6 +10194,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "unimpressed", "no face"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-meh",
@@ -9338,6 +10202,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "unimpressed", "neutral"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-nervous",
@@ -9355,6 +10220,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "ill",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-sad",
@@ -9362,6 +10228,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "unhappy", "frowning"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-sticker",
@@ -9369,6 +10236,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "happy", "grinning", "smiling"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "smiley-wink",
@@ -9376,6 +10244,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "winking", "flirting", "cute"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "smiley-x-eyes",
@@ -9383,6 +10252,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["face", "emoji", "dead", "killed", "unconscious"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "snapchat-logo",
@@ -9390,6 +10260,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "messaging", "social media"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "snowflake",
@@ -9397,6 +10268,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "snowy", "snowing", "snowstorm"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "soccer-ball",
@@ -9404,6 +10276,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports", "football", "mls"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "sort-ascending",
@@ -9411,6 +10284,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR],
     tags: ["sorted", "sorting", "increasing", "a to z", "arrows"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sort-descending",
@@ -9418,6 +10292,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR],
     tags: ["sorted", "sorting", "decreasing", "z to a", "arrows"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "spade",
@@ -9425,6 +10300,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES],
     tags: ["spades", "suits", "cards", "gambling", "casino", "gaming"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sparkle",
@@ -9432,6 +10308,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.NATURE],
     tags: ["star", "rate", "ratings", "favorites", "favorited"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "speaker-high",
@@ -9439,6 +10316,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-low",
@@ -9446,6 +10324,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-none",
@@ -9453,6 +10332,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-simple-high",
@@ -9460,6 +10340,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-simple-low",
@@ -9467,6 +10348,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-simple-none",
@@ -9474,6 +10356,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-simple-slash",
@@ -9481,6 +10364,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-simple-x",
@@ -9488,6 +10372,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound", "disabled", "errors"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-slash",
@@ -9495,6 +10380,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "speaker-x",
@@ -9502,6 +10388,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["music", "audio", "muted", "volume", "sound", "disabled", "errors"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "spinner",
@@ -9509,6 +10396,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["loading", "loader", "waiting", "progress"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "spinner-gap",
@@ -9516,6 +10404,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["loading", "loader", "waiting", "progress"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "spiral",
@@ -9523,6 +10412,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.DESIGN],
     tags: ["*new*", "spin", "rotate", "dizzy"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "spotify-logo",
@@ -9530,6 +10420,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.MEDIA],
     tags: ["music", "player", "streaming"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "square",
@@ -9537,6 +10428,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["4", "shapes", "polygons", "box"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "square-half",
@@ -9552,6 +10444,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "split vertical",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "square-half-bottom",
@@ -9568,6 +10461,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "split vertical",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "square-logo",
@@ -9575,6 +10469,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMERCE],
     tags: ["squareup", "payment"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "squares-four",
@@ -9592,6 +10487,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "logos",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "stack",
@@ -9599,6 +10495,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["cards", "layers"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "stack-overflow-logo",
@@ -9606,6 +10503,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["*new*", "logos", "code"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "stack-simple",
@@ -9613,6 +10511,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.OFFICE, IconCategory.EDITOR],
     tags: ["cards", "layers"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "stamp",
@@ -9620,6 +10519,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.OBJECTS],
     tags: ["*new*", "clone", "seal", "official"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "star",
@@ -9631,6 +10531,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["rate", "ratings", "favorites", "favorited"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "star-four",
@@ -9638,6 +10539,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.NATURE],
     tags: ["rate", "ratings", "favorites", "favorited"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "star-half",
@@ -9645,6 +10547,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["rate", "ratings"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "sticker",
@@ -9652,6 +10555,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["stickers", "sticker pack", "labels"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "stop",
@@ -9659,6 +10563,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "stop-circle",
@@ -9666,6 +10571,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA],
     tags: ["music", "audio", "round"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "storefront",
@@ -9681,6 +10587,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "strategy",
@@ -9688,6 +10595,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.FINANCE],
     tags: ["*new*", "sports", "strategem", "plan", "tic-tac-toe"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "stripe-logo",
@@ -9695,6 +10603,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMERCE],
     tags: ["payment"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "student",
@@ -9710,6 +10619,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "university",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "suitcase",
@@ -9717,6 +10627,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
     tags: ["briefcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "suitcase-simple",
@@ -9724,6 +10635,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
     tags: ["briefcase", "valise", "baggage", "folders", "portfolio"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "sun",
@@ -9746,6 +10658,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "brighten",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sun-dim",
@@ -9767,6 +10680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "darken",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "sun-horizon",
@@ -9783,6 +10697,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "sunset",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "sunglasses",
@@ -9790,6 +10705,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.OBJECTS],
     tags: ["*new*", "vision", "sun", "spectacles"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "swap",
@@ -9797,6 +10713,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["layers", "replace", "exchange", "reverse"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "swatches",
@@ -9808,6 +10725,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["colors", "color picker", "samples", "pantone"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "sword",
@@ -9823,6 +10741,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "gaming",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "syringe",
@@ -9838,6 +10757,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "hospital",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "t-shirt",
@@ -9845,6 +10765,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.COMMERCE],
     tags: ["clothes", "clothing"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "table",
@@ -9856,6 +10777,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["tables", "tabular", "speadsheets", "excel", "grid", "form"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tabs",
@@ -9863,6 +10785,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["*new*", "browser", "window", "folders", "files"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "tag",
@@ -9874,6 +10797,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["tags", "hashtag", "labels", "sale", "sell", "price", "discount"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tag-chevron",
@@ -9885,6 +10809,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["tags", "hashtag", "labels", "sale"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "tag-simple",
@@ -9896,6 +10821,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["tags", "hashtag", "labels", "sale", "sell", "price", "discount"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "target",
@@ -9903,6 +10829,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["bullseye", "radar", "archery", "accuracy", "precision"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "taxi",
@@ -9918,6 +10845,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "uber",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "telegram-logo",
@@ -9925,6 +10853,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "messages", "messaging"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "television",
@@ -9932,6 +10861,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["screen", "tv", "displays"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "television-simple",
@@ -9939,6 +10869,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
     tags: ["screen", "tv", "displays"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "tennis-ball",
@@ -9946,6 +10877,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports", "mlb"],
     published_in: 1.3,
+    updated_in: 1.4,
   },
   {
     name: "terminal",
@@ -9953,6 +10885,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.SYSTEM],
     tags: ["command line", "cli", "bash", "shell", "caret", "console"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "terminal-window",
@@ -9960,6 +10893,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DEVELOPMENT, IconCategory.SYSTEM],
     tags: ["command line", "cli", "bash", "shell", "caret", "console"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "test-tube",
@@ -9971,6 +10905,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["science", "chemistry", "experiment", "vial"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-aa",
@@ -9978,6 +10913,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "typeface", "print", "font"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-align-center",
@@ -9985,6 +10921,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "print", "font", "alignment", "centered"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "text-align-justify",
@@ -9992,6 +10929,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "print", "font", "alignment", "justified"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "text-align-left",
@@ -9999,6 +10937,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "print", "font", "alignment", "flush left"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "text-align-right",
@@ -10006,6 +10945,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "print", "font", "alignment", "flush right"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "text-bolder",
@@ -10013,6 +10953,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["typography", "typeface", "print", "font", "boldface", "emphasis"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "text-h",
@@ -10020,6 +10961,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-five",
@@ -10027,6 +10969,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h5", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-four",
@@ -10034,6 +10977,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h4", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-one",
@@ -10041,6 +10985,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h1", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-six",
@@ -10048,6 +10993,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h6", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-three",
@@ -10055,6 +11001,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h3", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-h-two",
@@ -10062,6 +11009,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["heading", "h2", "typography", "print"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "text-indent",
@@ -10069,6 +11017,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "tab"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "text-italic",
@@ -10086,6 +11035,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calligraphy",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "text-outdent",
@@ -10093,6 +11043,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["*new*", "alignment", "tab", "unindent", "dedent"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "text-strikethrough",
@@ -10109,6 +11060,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "change",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "text-t",
@@ -10116,6 +11068,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR],
     tags: ["typography", "typeface", "print", "font"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "text-underline",
@@ -10123,6 +11076,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
     tags: ["typography", "typeface", "print", "font", "underscore", "emphasis"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "textbox",
@@ -10130,6 +11084,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
     tags: ["*new*", "input", "cursor", "field"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "thermometer",
@@ -10153,6 +11108,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "cold",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "thermometer-cold",
@@ -10173,6 +11129,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "fahrenheit",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "thermometer-hot",
@@ -10194,6 +11151,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "warm",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "thermometer-simple",
@@ -10217,6 +11175,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "cold",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "thumbs-down",
@@ -10224,6 +11183,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["dislike", "hate", "emoji", "no"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "thumbs-up",
@@ -10231,6 +11191,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
     tags: ["like", "love", "favorited", "favorites", "emoji", "yes"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "ticket",
@@ -10238,6 +11199,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["ticketstub", "movie ticket", "entry", "admissions", "events"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tiktok-logo",
@@ -10245,6 +11207,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "social media"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "timer",
@@ -10252,6 +11215,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["clock", "alarm", "schedule", "events", "stopwatch", "sports"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "toggle-left",
@@ -10259,6 +11223,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["switch", "controls", "settings", "preferences"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "toggle-right",
@@ -10266,6 +11231,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["switch", "controls", "settings", "preferences"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "toilet",
@@ -10273,6 +11239,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.OBJECTS],
     tags: ["*new*", "bathroom", "restroom", "lavatory", "water closet"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "toilet-paper",
@@ -10280,6 +11247,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.HEALTH, IconCategory.OBJECTS],
     tags: ["bathroom", "restroom", "lavatory", "water closet"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "tote",
@@ -10287,6 +11255,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcases", "valises", "baggage", "tote-bag", "portfolios"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tote-simple",
@@ -10294,6 +11263,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
     tags: ["suitcases", "valises", "baggage", "tote-bag", "portfolios"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "trademark-registered",
@@ -10301,6 +11271,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE],
     tags: ["*new*", "®", "™", "intellectual property"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "traffic-cone",
@@ -10308,6 +11279,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["*new*", "pylon", "safety", "transit", "transportation"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "traffic-sign",
@@ -10315,6 +11287,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["road signs", "transit", "transportation"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "traffic-signal",
@@ -10322,6 +11295,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MAP],
     tags: ["*new*", "stop light", "safety", "transit", "transportation"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "train",
@@ -10339,6 +11313,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "train-regional",
@@ -10358,6 +11333,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "train-simple",
@@ -10375,6 +11351,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "locations",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "translate",
@@ -10388,6 +11365,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "speech",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "trash",
@@ -10395,6 +11373,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["garbage", "remove", "delete", "destroy", "recycle", "recycling"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "trash-simple",
@@ -10402,6 +11381,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
     tags: ["garbage", "remove", "delete", "destroy", "recycle", "recycling"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tray",
@@ -10413,6 +11393,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["inbox", "mailbox", "bin"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "tree",
@@ -10420,6 +11401,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE],
     tags: ["plants", "branches", "leaves", "green", "environmental"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "tree-evergreen",
@@ -10435,6 +11417,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "environmental",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "tree-structure",
@@ -10450,6 +11433,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "flowchart",
     ],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "trend-down",
@@ -10466,6 +11450,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrows",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "trend-up",
@@ -10482,6 +11467,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "arrows",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "triangle",
@@ -10489,6 +11475,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["3", "shapes", "polygons"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "trophy",
@@ -10496,6 +11483,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.OBJECTS],
     tags: ["ribbons", "medals", "winning", "victory", "awards", "prize"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "truck",
@@ -10503,6 +11491,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
     tags: ["trucks", "cars", "vehicles", "automobile", "shipping", "delivery"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "twitch-logo",
@@ -10521,6 +11510,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "social media",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "twitter-logo",
@@ -10528,6 +11518,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "social media", "tweets", "birds"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "umbrella",
@@ -10535,6 +11526,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.WEATHER],
     tags: ["raining", "rainy", "insurance"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "umbrella-simple",
@@ -10542,6 +11534,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.WEATHER],
     tags: ["raining", "rainy", "insurance"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "upload",
@@ -10559,6 +11552,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disk",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "upload-simple",
@@ -10576,6 +11570,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disk",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user",
@@ -10583,6 +11578,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["person", "users", "profile", "account", "contact", "login"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-circle",
@@ -10590,6 +11586,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["person", "users", "profile", "account", "contact", "login"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-circle-gear",
@@ -10605,6 +11602,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-circle-minus",
@@ -10621,6 +11619,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "-",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-circle-plus",
@@ -10637,6 +11636,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-focus",
@@ -10652,6 +11652,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "autofocus",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "user-gear",
@@ -10667,6 +11668,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-list",
@@ -10681,6 +11683,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "address book",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "user-minus",
@@ -10697,6 +11700,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "-",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-plus",
@@ -10713,6 +11717,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "+",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-rectangle",
@@ -10720,6 +11725,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["person", "users", "profile", "account", "contact", "login"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-square",
@@ -10727,6 +11733,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.PEOPLE],
     tags: ["person", "users", "profile", "account", "contact", "login"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "user-switch",
@@ -10746,6 +11753,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "preferences",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "users",
@@ -10761,6 +11769,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "contacts",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "users-four",
@@ -10778,6 +11787,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "contacts",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "users-three",
@@ -10794,6 +11804,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "contacts",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "vault",
@@ -10816,6 +11827,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "encryption",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "vibrate",
@@ -10831,6 +11843,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "silenced",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "video-camera",
@@ -10838,6 +11851,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["videography", "films", "movies", "recording"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "video-camera-slash",
@@ -10845,6 +11859,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
     tags: ["videography", "films", "movies", "recording", "disabled"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "vignette",
@@ -10852,6 +11867,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.DESIGN],
     tags: ["*new*", "photography", "darkroom", "movie", "analog"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "voicemail",
@@ -10859,6 +11875,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["phonecalls", "missed", "recording", "telephone", "landline"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "volleyball",
@@ -10866,6 +11883,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.GAMES, IconCategory.HEALTH],
     tags: ["sports"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "wall",
@@ -10873,6 +11891,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
     tags: ["firewall", "security", "secured", "blocks", "bricks"],
     published_in: 1.2,
+    updated_in: 1.4,
   },
   {
     name: "wallet",
@@ -10884,6 +11903,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["money", "payment", "paying", "purchase"],
     published_in: 1.2,
+    updated_in: 1.2,
   },
   {
     name: "warning",
@@ -10891,6 +11911,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["alert", "danger", "dangerous", "caution", "errors"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "warning-circle",
@@ -10898,6 +11919,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["alert", "danger", "dangerous", "caution", "errors", "round"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "warning-octagon",
@@ -10905,6 +11927,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["alert", "danger", "dangerous", "caution", "errors", "8", "eight"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "watch",
@@ -10921,6 +11944,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "wearable",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wave-sawtooth",
@@ -10936,6 +11960,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "waveform",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "wave-sine",
@@ -10951,6 +11976,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "waveform",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "wave-square",
@@ -10966,6 +11992,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "waveform",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "wave-triangle",
@@ -10981,6 +12008,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "waveform",
     ],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "waves",
@@ -10988,6 +12016,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.NATURE, IconCategory.WEATHER],
     tags: ["ocean", "tides", "surf"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "webcam",
@@ -10999,6 +12028,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["*new*", "camera", "video conference"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "whatsapp-logo",
@@ -11006,6 +12036,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
     tags: ["logos", "messages", "messaging"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "wheelchair",
@@ -11021,6 +12052,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "a11y",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-high",
@@ -11028,6 +12060,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-low",
@@ -11035,6 +12068,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-medium",
@@ -11042,6 +12076,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-none",
@@ -11049,6 +12084,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-slash",
@@ -11064,6 +12100,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "disconnected",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "wifi-x",
@@ -11079,6 +12116,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "errors",
     ],
     published_in: 1.0,
+    updated_in: 1.4,
   },
   {
     name: "wind",
@@ -11086,6 +12124,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.WEATHER],
     tags: ["meteorology", "windy", "stormy", "blustery", "gusty", "air"],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "windows-logo",
@@ -11093,6 +12132,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.BRAND, IconCategory.DEVELOPMENT],
     tags: ["microsoft", "computers"],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "wine",
@@ -11110,6 +12150,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "dining",
     ],
     published_in: 1.3,
+    updated_in: 1.3,
   },
   {
     name: "wrench",
@@ -11125,6 +12166,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "repairs",
     ],
     published_in: 1.1,
+    updated_in: 1.1,
   },
   {
     name: "x",
@@ -11148,6 +12190,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       "calculator",
     ],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "x-circle",
@@ -11155,6 +12198,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["closed", "cancelled", "dismissed", "round"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "x-square",
@@ -11162,6 +12206,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.SYSTEM],
     tags: ["closed", "cancelled", "dismissed"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
   {
     name: "yin-yang",
@@ -11169,6 +12214,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     categories: [IconCategory.COMMUNICATION],
     tags: ["*new*", "symbol", "good", "evil", "black", "white"],
     published_in: 1.4,
+    updated_in: 1.4,
   },
   {
     name: "youtube-logo",
@@ -11180,5 +12226,6 @@ export const icons: ReadonlyArray<IconEntry> = [
     ],
     tags: ["logos", "google", "videos", "movies", "social media"],
     published_in: 1.0,
+    updated_in: 1.0,
   },
 ];
