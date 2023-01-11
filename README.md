@@ -1,0 +1,56 @@
+<img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
+
+# @phosphor-icons/core
+
+This repository hosts the raw SVGs and catalog data – including tags, categories, and release versions – of all icons in the [Phosphor Icons](https://phosphoricons.com) family. It serves as the basis for our fuzzy-search on our website and other tools, and as a dev dependency in the build process in some of our framework-specific libraries. You may find this package is useful to you in implementing a port of Phosphor to your preferred framework, or as a source of truth for our current SVG assets.
+
+[![NPM](https://img.shields.io/npm/v/@phosphor-icons/core.svg?style=flat-square)](https://www.npmjs.com/package/@phosphor-icons/core)
+[![GitHub stars](https://img.shields.io/github/stars/phosphor-icons/core?style=flat-square&label=Star)](https://github.com/phosphor-icons/core)
+[![GitHub forks](https://img.shields.io/github/forks/phosphor-icons/core?style=flat-square&label=Fork)](https://github.com/phosphor-icons/core/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/phosphor-icons/core?style=flat-square&label=Watch)](https://github.com/phosphor-icons/core)
+[![Follow on GitHub](https://img.shields.io/github/followers/rektdeckard?style=flat-square&label=Follow)](https://github.com/rektdeckard)
+
+## Installation
+
+```bash
+yarn add @phosphor-icons/core
+```
+
+## Catalog
+
+This package exposes a named export `icons`, which is an array of `IconEntry` objects represententing each icon, its name in both `kebab-case` and `PascalCase`, the catergories and tags associated with it, as well as the version it was published in and the most recent version it was updated in:
+
+```ts
+interface IconEntry {
+  name: string;               // "cloud-lightning"
+  pascal_name: string;        // "CloudLightning"
+  categories: IconCategory[]; // ["weather"]
+  tags: string[];             // ["*updated*", "meteorology", "cloudy", "overcast", "stormy", "thunderstorm"]
+  published_in: number;       // 1.0
+  updated_in: number;         // 1.4
+}
+```
+
+## Our Related Projects
+
+- [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
+- [@phosphor-icons/vue](https://github.com/phosphor-icons/vue) ▲ Phosphor icon component library for Vue
+- [@phosphor-icons/web](https://github.com/phosphor-icons/web) ▲ Phosphor icons for Vanilla JS
+- [@phosphor-icons/elm](https://github.com/phosphor-icons/phosphor-elm) ▲ Phosphor icons for Elm
+- [@phosphor-icons/flutter](https://github.com/phosphor-icons/flutter) ▲ Phosphor IconData library for Flutter
+- [@phosphor-icons/webcomponents](https://github.com/phosphor-icons/webcomponents) ▲ Phosphor icons as Web Components
+- [@phosphor-icons/figma](https://github.com/phosphor-icons/figma) ▲ Phosphor icons Figma plugin
+- [@phosphor-icons/sketch](https://github.com/phosphor-icons/sketch) ▲ Phosphor icons Sketch plugin
+
+## Community Projects
+
+- [phosphor-react-native](https://github.com/duongdev/phosphor-react-native) ▲ Phosphor icon component library for React Native
+- [phosphor-svelte](https://github.com/haruaki07/phosphor-svelte) ▲ Phosphor icons for Svelte apps
+- [phosphor-r](https://github.com/dreamRs/phosphoricons) ▲ Phosphor icon wrapper for R documents and applications
+- [blade-phosphor-icons](https://github.com/codeat3/blade-phosphor-icons) ▲ Phosphor icons in your Laravel Blade views
+
+If you've made a port of Phosphor and you want to see it here, just open a PR [here](https://github.com/phosphor-icons/phosphor-home)!
+
+## License
+
+MIT © [Phosphor Icons](https://github.com/phosphor-icons)
