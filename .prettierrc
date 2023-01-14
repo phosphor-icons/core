@@ -1,3 +1,4 @@
 printWidth: 80
-tabWidth: 2
 semi: true
+tabWidth: 2
+trailingComma: "es5"

@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/core",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Icon catalog and assets for Phosphor",
   "license": "MIT",
   "repository": "https://github.com/phosphor-icons/phosphor-core.git",
@@ -45,6 +45,7 @@
     "axios": "^1.2.2",
     "chalk": "^4",
     "commander": "^9.5.0",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.4",
     "vite": "^4.0.4"
   }
