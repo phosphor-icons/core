@@ -16,6 +16,19 @@ This repository hosts the raw SVGs and catalog data – including tags, categori
 yarn add @phosphor-icons/core
 ```
 
+## Assets
+
+This package expoeses all icon SVG assets, grouped by weight, under the `/assets` directory, E.G.  `/assests/<weight>/kebab-name-<weight>.svg`. and be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize  and transform `"*.svg"` files into modules.
+
+```ts
+import ghostDuotone from "@phosphor-icons/core/duotone/ghost-duotone.svg";
+```
+
+
+```tsx
+import { ReactComponent as GhostDuotone } from "@phosphor-icons/core/duotone/ghost-duotone.svg";
+```
+
 ## Catalog
 
 This package exposes a named export `icons`, which is an array of `IconEntry` objects represententing each icon, its name in both `kebab-case` and `PascalCase`, the catergories and tags associated with it, as well as the version it was published in and the most recent version it was updated in:
