@@ -49,14 +49,18 @@ export const icons: ReadonlyArray<IconEntry> = [
   {
     name: "${icon.name}",
     pascal_name: "${icon.name
-            .split("-")
-            .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
-            .join("")}",
+      .split("-")
+      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
+      .join("")}",
     categories: ${categories},
     tags: ${JSON.stringify([
-              ...(icon.published_in >= CURRENT_NUMERIC_VERSION ? ["*new*"] : icon.updated_in === CURRENT_NUMERIC_VERSION ? ["*updated*"] : []),
-              ...icon.tags,
-            ])},
+      ...(icon.published_in >= CURRENT_NUMERIC_VERSION
+        ? ["*new*"]
+        : icon.updated_in === CURRENT_NUMERIC_VERSION
+        ? ["*updated*"]
+        : []),
+      ...icon.tags,
+    ])},
     published_in: ${icon.published_in.toFixed(1)},
     updated_in: ${icon.updated_in.toFixed(1)},
   },
@@ -69,10 +73,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 `;
 
       try {
-        await fs.writeFile(
-          path.join(__dirname, "../src/icons.ts"),
-          fileString
-        );
+        await fs.writeFile(path.join(__dirname, "../src/icons.ts"), fileString);
         console.log(
           `${chalk.green(" DONE ")} ${res.data.icons.length} icons ingested`
         );
