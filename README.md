@@ -29,7 +29,8 @@ As of Vite 4.0.4 (current at the time of writing), a bug in one of its dependenc
 ```ts
 import ghostDuotone from "@phosphor-icons/core/duotone/ghost-duotone.svg";
 ```
-#### Using [SVGR](https://react-svgr.com/docs/configuration-files):
+
+#### Using [SVGR](https://react-svgr.com/docs/webpack/#use-with-url-loader-or-file-loader) (includes `create-react-app` projects):
 
 ```tsx
 import { ReactComponent as GhostDuotone } from "@phosphor-icons/core/duotone/ghost-duotone.svg";
