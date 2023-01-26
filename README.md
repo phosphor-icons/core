@@ -18,12 +18,18 @@ yarn add @phosphor-icons/core
 
 ## Assets
 
-This package expoeses all icon SVG assets, grouped by weight, under the `/assets` directory, E.G.  `/assests/<weight>/kebab-name-<weight>.svg`. and be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize  and transform `"*.svg"` files into modules.
+This package exposes all icons as SVG assets, grouped by weight, under the `/assets` directory (i.e.  `/assets/<weight>/<kebab-name>-<weight>.svg`). These files can be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize and transform `"*.svg"` files into modules.
+
+### Note for Vite users 
+
+As of Vite 4.0.4 (current at the time of writing), a bug in one of its dependencies prevents wildcard exports from being resolved. This will be [fixed](https://github.com/vitejs/vite/commit/00a79ec88472cbcc767c1187f919ce372215f573) in Vite 4.1.
+
+### Example
 
 ```ts
 import ghostDuotone from "@phosphor-icons/core/duotone/ghost-duotone.svg";
 ```
-
+#### Using [SVGR](https://react-svgr.com/docs/configuration-files):
 
 ```tsx
 import { ReactComponent as GhostDuotone } from "@phosphor-icons/core/duotone/ghost-duotone.svg";
