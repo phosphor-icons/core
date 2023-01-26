@@ -20,7 +20,13 @@
     "./assets/fill/*.svg": "./assets/fill/*.svg",
     "./assets/light/*.svg": "./assets/light/*.svg",
     "./assets/regular/*.svg": "./assets/regular/*.svg",
-    "./assets/thin/*.svg": "./assets/thin/*.svg"
+    "./assets/thin/*.svg": "./assets/thin/*.svg",
+    "./bold/*.svg": "./assets/bold/*.svg",
+    "./duotone/*.svg": "./assets/duotone/*.svg",
+    "./fill/*.svg": "./assets/fill/*.svg",
+    "./light/*.svg": "./assets/light/*.svg",
+    "./regular/*.svg": "./assets/regular/*.svg",
+    "./thin/*.svg": "./assets/thin/*.svg"
   },
   "types": "./dist/index.d.ts",
   "author": {
