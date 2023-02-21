@@ -39,7 +39,7 @@ export enum FigmaCategory {
   FINANCE = "math & finance",
   GAMES = "games",
   HEALTH = "health & wellness",
-  MAP = "maps & tavel",
+  MAP = "maps & travel",
   MEDIA = "media",
   OFFICE = "office & editing",
   PEOPLE = "people",

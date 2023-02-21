@@ -13,6 +13,27 @@ const ICON_API_URL = "https://api.phosphoricons.com";
 const [MAJOR_PART, MINOR_PART] = version.split(".");
 const CURRENT_NUMERIC_VERSION = +MAJOR_PART + +MINOR_PART / 10;
 
+const CATEGORY_MAP = {
+  Arrows: "ARROWS",
+  Brands: "BRAND",
+  Commerce: "COMMERCE",
+  Communication: "COMMUNICATION ",
+  Design: "DESIGN",
+  Development: "DEVELOPMENT",
+  Education: "EDUCATION",
+  Games: "GAMES",
+  "Health & Wellness": "HEALTH",
+  "Maps & Travel": "MAP",
+  "Math & Finance": "FINANCE",
+  Media: "MEDIA",
+  "Office & Editing": "OFFICE",
+  People: "PEOPLE",
+  "Security & Warnings": "SECURITY",
+  "System & Devices": "SYSTEM",
+  Time: "TIME",
+  "Weather & Nature": "WEATHER",
+};
+
 async function main() {
   const program = new Command();
   program
@@ -33,12 +54,25 @@ async function main() {
     const res = await axios.get(`${ICON_API_URL}?${params}`);
     if (res.data) {
       let fileString = `\
-import { IconEntry, IconCategory } from "./types";
+import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
 export const icons: ReadonlyArray<IconEntry> = [
 `;
 
       res.data.icons.forEach((icon) => {
+        if (!icon.category) {
+          console.error(
+            `${chalk.inverse.red(" FAIL ")} ${icon.name} missing Category`
+          );
+        }
+
+        let figma_category = CATEGORY_MAP[icon.category];
+        if (!figma_category) {
+          console.error(
+            `${chalk.inverse.red(" FAIL ")} Invalid category ${icon.category}`
+          );
+        }
+
         let categories = "[";
         icon.search_categories?.forEach((c) => {
           categories += `IconCategory.${c.toUpperCase()},`;
@@ -53,6 +87,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
       .join("")}",
     categories: ${categories},
+    figma_category: FigmaCategory.${figma_category},
     tags: ${JSON.stringify([
       ...(icon.published_in >= CURRENT_NUMERIC_VERSION
         ? ["*new*"]
@@ -85,7 +120,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     }
   } catch (e) {
     console.error(e);
-    process.exit(-1);
+    process.exit(1);
   }
 }
 
