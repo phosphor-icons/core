@@ -6,33 +6,16 @@ const path = require("path");
 const axios = require("axios");
 const chalk = require("chalk");
 const { Command } = require("commander");
+
 const { version } = require("../package.json");
+const { CATEGORY_MAP, ALIASES } = require(".");
 
 const ICON_API_URL = "https://api.phosphoricons.com";
 
 const [MAJOR_PART, MINOR_PART] = version.split(".");
 const CURRENT_NUMERIC_VERSION = +MAJOR_PART + +MINOR_PART / 10;
 
-const CATEGORY_MAP = {
-  Arrows: "ARROWS",
-  Brands: "BRAND",
-  Commerce: "COMMERCE",
-  Communication: "COMMUNICATION ",
-  Design: "DESIGN",
-  Development: "DEVELOPMENT",
-  Education: "EDUCATION",
-  Games: "GAMES",
-  "Health & Wellness": "HEALTH",
-  "Maps & Travel": "MAP",
-  "Math & Finance": "FINANCE",
-  Media: "MEDIA",
-  "Office & Editing": "OFFICE",
-  People: "PEOPLE",
-  "Security & Warnings": "SECURITY",
-  "System & Devices": "SYSTEM",
-  Time: "TIME",
-  "Weather & Nature": "WEATHER",
-};
+main().catch(console.error);
 
 async function main() {
   const program = new Command();
@@ -82,10 +65,13 @@ export const icons: ReadonlyArray<IconEntry> = [
         fileString += `\
   {
     name: "${icon.name}",
-    pascal_name: "${icon.name
-      .split("-")
-      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
-      .join("")}",
+    pascal_name: "${pascalize(icon.name)}",${
+          !!ALIASES[icon.name]
+            ? `alias: { name: "${
+                ALIASES[icon.name]
+              }", pascal_name: "${pascalize(ALIASES[icon.name])}" },`
+            : ""
+        }
     categories: ${categories},
     figma_category: FigmaCategory.${figma_category},
     tags: ${JSON.stringify([
@@ -124,4 +110,9 @@ export const icons: ReadonlyArray<IconEntry> = [
   }
 }
 
-main();
+function pascalize(str) {
+  return str
+    .split("-")
+    .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
+    .join("");
+}

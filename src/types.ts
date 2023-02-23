@@ -52,6 +52,10 @@ export enum FigmaCategory {
 export interface IconEntry {
   name: string;
   pascal_name: string;
+  alias?: {
+    name: string;
+    pascal_name: string;
+  };
   categories: IconCategory[];
   figma_category: FigmaCategory;
   tags: string[];
