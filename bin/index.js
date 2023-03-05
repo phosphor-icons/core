@@ -23,6 +23,7 @@ const CATEGORY_MAP = {
 
 const ALIASES = {
   "file-dashed": "file-dotted",
+  "file-magnifying-glass": "file-search",
   "folder-dashed": "folder-dotted",
   "folder-simple-dashed": "folder-simple-dotted",
   pulse: "activity",
