@@ -1,0 +1,26 @@
+name: Release packages
+on: release
+jobs:
+  release:
+    strategy:
+      matrix:
+        packages: [flutter]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          repository: phosphor-icons/${{ matrix.packages }}
+          token: ${{ secrets.CI_PAT }}
+      - name: Setup Git
+        run: |
+          git config --global user.name "Automated Release"
+          git config --global user.email "friedtm@gmail.com"
+            - name: Create release
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.release.name }}
+          name: ${{ github.event.release.name }}
+          token: ${{ secrets.CI_PAT }}
+          body: ${{ github.event.release.body }}
