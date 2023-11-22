@@ -26,6 +26,7 @@ const ALIASES = {
   "file-magnifying-glass": "file-search",
   "folder-dashed": "folder-dotted",
   "folder-simple-dashed": "folder-simple-dotted",
+  infinity: "lemniscate",
   pulse: "activity",
   seal: "circle-wavy",
   "seal-check": "circle-wavy-check",
