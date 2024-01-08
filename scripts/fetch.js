@@ -8,7 +8,7 @@ const chalk = require("chalk");
 const { Command } = require("commander");
 
 const { version } = require("../package.json");
-const { CATEGORY_MAP, ALIASES } = require(".");
+const { CATEGORY_MAP } = require(".");
 
 const ICON_API_URL = "https://api.phosphoricons.com";
 
@@ -66,10 +66,10 @@ export const icons: ReadonlyArray<IconEntry> = [
   {
     name: "${icon.name}",
     pascal_name: "${pascalize(icon.name)}",${
-          !!ALIASES[icon.name]
-            ? `alias: { name: "${
-                ALIASES[icon.name]
-              }", pascal_name: "${pascalize(ALIASES[icon.name])}" },`
+          !!icon.alias
+            ? `alias: { name: "${icon.alias}", pascal_name: "${pascalize(
+                icon.alias
+              )}" },`
             : ""
         }
     categories: ${categories},

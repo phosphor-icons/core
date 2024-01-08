@@ -21,18 +21,4 @@ const CATEGORY_MAP = {
   "Weather & Nature": "WEATHER",
 };
 
-const ALIASES = {
-  "file-dashed": "file-dotted",
-  "file-magnifying-glass": "file-search",
-  "folder-dashed": "folder-dotted",
-  "folder-simple-dashed": "folder-simple-dotted",
-  infinity: "lemniscate",
-  pulse: "activity",
-  seal: "circle-wavy",
-  "seal-check": "circle-wavy-check",
-  "seal-question": "circle-wavy-question",
-  "seal-warning": "circle-wavy-warning",
-  "text-b": "text-bolder",
-};
-
-module.exports = { CATEGORY_MAP, ALIASES };
+module.exports = { CATEGORY_MAP };

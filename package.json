@@ -48,7 +48,7 @@
     "./assets"
   ],
   "scripts": {
-    "fetch": "node ./bin/fetch.js && yarn format",
+    "fetch": "node ./scripts/fetch.js && yarn format",
     "format": "prettier --write ./src/**",
     "build": "vite build && tsc --emitDeclarationOnly"
   },
