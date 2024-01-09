@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/core",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Icon catalog and assets for Phosphor",
   "license": "MIT",
   "repository": "https://github.com/phosphor-icons/phosphor-core.git",
@@ -49,7 +49,7 @@
   ],
   "scripts": {
     "fetch": "node ./scripts/fetch.js && yarn format",
-    "format": "prettier --write ./src/**",
+    "format": "prettier --write ./src/** ./scripts/**",
     "build": "vite build && tsc --emitDeclarationOnly"
   },
   "devDependencies": {

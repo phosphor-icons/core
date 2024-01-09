@@ -59,6 +59,7 @@ export interface IconEntry {
   categories: IconCategory[];
   figma_category: FigmaCategory;
   tags: string[];
+  codepoint: number;
   published_in: number;
   updated_in: number;
 }

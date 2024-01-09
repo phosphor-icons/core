@@ -36,17 +36,28 @@ async function main() {
   try {
     const res = await axios.get(`${ICON_API_URL}?${params}`);
     if (res.data) {
+      res.data.icons.sort((a, b) => (a.name < b.name ? -1 : 1));
+
       let fileString = `\
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
 export const icons: ReadonlyArray<IconEntry> = [
 `;
 
+      console.log(res.data.icons);
       res.data.icons.forEach((icon) => {
+        if (!icon.codepoint) {
+          console.error(
+            `${chalk.inverse.red(" FAIL ")} ${icon.name} missing Codepoint`
+          );
+          throw new Error("codepoint");
+        }
+
         if (!icon.category) {
           console.error(
             `${chalk.inverse.red(" FAIL ")} ${icon.name} missing Category`
           );
+          throw new Error("category");
         }
 
         let figma_category = CATEGORY_MAP[icon.category];
@@ -54,6 +65,7 @@ export const icons: ReadonlyArray<IconEntry> = [
           console.error(
             `${chalk.inverse.red(" FAIL ")} Invalid category ${icon.category}`
           );
+          throw new Error("figma_category");
         }
 
         let categories = "[";
@@ -82,6 +94,7 @@ export const icons: ReadonlyArray<IconEntry> = [
         : []),
       ...icon.tags,
     ])},
+    codepoint: ${icon.codepoint},
     published_in: ${icon.published_in.toFixed(1)},
     updated_in: ${icon.updated_in.toFixed(1)},
   },
@@ -100,9 +113,11 @@ export const icons: ReadonlyArray<IconEntry> = [
         );
       } catch (e) {
         console.error(`${chalk.inverse.red(" FAIL ")} Could not write file`);
+        process.exit(1);
       }
     } else {
       console.error(`${chalk.inverse.red(" FAIL ")} No data`);
+      process.exit(1);
     }
   } catch (e) {
     console.error(e);
