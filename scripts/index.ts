@@ -1,6 +1,6 @@
 "use strict";
 
-const CATEGORY_MAP = {
+export const CATEGORY_MAP = {
   Arrows: "ARROWS",
   Brands: "BRAND",
   Commerce: "COMMERCE",
@@ -20,5 +20,3 @@ const CATEGORY_MAP = {
   Time: "TIME",
   "Weather & Nature": "WEATHER",
 };
-
-module.exports = { CATEGORY_MAP };

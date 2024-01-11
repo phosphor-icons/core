@@ -15374,7 +15374,7 @@ export const icons: ReadonlyArray<IconEntry> = [
     pascal_name: "Tipi",
     categories: [IconCategory.NATURE, IconCategory.OBJECTS, IconCategory.MAP],
     figma_category: FigmaCategory.MAP,
-    tags: ["*new*", "teepee", "lodge"],
+    tags: ["*new*", "teepee", "lodge", "tent", "outdoors", "camping", "tarp"],
     codepoint: 60720,
     published_in: 2.0,
     updated_in: 2.0,

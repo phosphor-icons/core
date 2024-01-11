@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 "use strict";
 
-const fs = require("fs/promises");
-const path = require("path");
-const axios = require("axios");
-const chalk = require("chalk");
-const { Command } = require("commander");
+import fs from "node:fs/promises";
+import path from "path";
+import axios from "axios";
+import chalk from "chalk";
+import { Command } from "commander";
 
-const { version } = require("../package.json");
-const { CATEGORY_MAP } = require(".");
+import { version } from "../package.json";
+import { CATEGORY_MAP } from ".";
 
 const ICON_API_URL = "https://api.phosphoricons.com";
 
