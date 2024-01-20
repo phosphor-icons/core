@@ -56,9 +56,9 @@ export interface IconEntry {
     name: string;
     pascal_name: string;
   };
-  categories: IconCategory[];
+  categories: readonly IconCategory[];
   figma_category: FigmaCategory;
-  tags: string[];
+  tags: readonly string[];
   codepoint: number;
   published_in: number;
   updated_in: number;

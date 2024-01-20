@@ -1,6 +1,6 @@
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
-export const icons: ReadonlyArray<IconEntry> = [
+export const icons = <const>[
   {
     name: "address-book",
     pascal_name: "AddressBook",
@@ -16806,4 +16806,4 @@ export const icons: ReadonlyArray<IconEntry> = [
     published_in: 1.0,
     updated_in: 1.0,
   },
-];
+] satisfies ReadonlyArray<IconEntry>;
