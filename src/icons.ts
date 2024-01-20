@@ -1,5 +1,7 @@
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
+export type PhosphorIcon = typeof icons[number]
+
 export const icons = <const>[
   {
     name: "address-book",
