@@ -1,8 +1,8 @@
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
-export type PhosphorIcon = typeof icons[number]
+export type PhosphorIcon = (typeof icons)[number];
 
-export const icons = <const>[
+export const icons = (<const>[
   {
     name: "address-book",
     pascal_name: "AddressBook",
@@ -6611,6 +6611,17 @@ export const icons = <const>[
     updated_in: 1.4,
   },
   {
+    name: "file-magnifying-glass",
+    pascal_name: "FileMagnifyingGlass",
+    alias: { name: "file-search", pascal_name: "FileSearch" },
+    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    figma_category: FigmaCategory.OFFICE,
+    tags: ["documents", "files", "find", "locate", "browse", "missing"],
+    codepoint: 57912,
+    published_in: 1.0,
+    updated_in: 1.0,
+  },
+  {
     name: "file-minus",
     pascal_name: "FileMinus",
     categories: [IconCategory.OFFICE, IconCategory.EDITOR],
@@ -6673,20 +6684,6 @@ export const icons = <const>[
     codepoint: 60200,
     published_in: 1.4,
     updated_in: 1.4,
-  },
-  {
-    name: "file-search",
-    pascal_name: "FileSearch",
-    alias: {
-      name: "file-magnifying-glass",
-      pascal_name: "FileMagnifyingGlass",
-    },
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
-    figma_category: FigmaCategory.OFFICE,
-    tags: ["documents", "files", "find", "locate", "browse", "missing"],
-    codepoint: 57912,
-    published_in: 1.0,
-    updated_in: 1.0,
   },
   {
     name: "file-sql",
@@ -16811,4 +16808,4 @@ export const icons = <const>[
     published_in: 1.0,
     updated_in: 1.0,
   },
-] satisfies ReadonlyArray<IconEntry>;
+]) satisfies readonly IconEntry[];

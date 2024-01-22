@@ -41,7 +41,9 @@ async function main() {
       let fileString = `\
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
-export const icons: ReadonlyArray<IconEntry> = [
+export type PhosphorIcon = typeof icons[number]
+
+export const icons = <const>[
 `;
 
       console.log(res.data.icons);
@@ -103,7 +105,7 @@ export const icons: ReadonlyArray<IconEntry> = [
       });
 
       fileString += `
-];
+] satisfies readonly IconEntry[];
 `;
 
       try {
