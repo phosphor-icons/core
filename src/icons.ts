@@ -1,8 +1,8 @@
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
 
-export type PhosphorIcon = typeof icons[number]
+export type PhosphorIcon = (typeof icons)[number];
 
-export const icons = <const>[
+export const icons = (<const>[
   {
     name: "address-book",
     pascal_name: "AddressBook",
@@ -16808,4 +16808,4 @@ export const icons = <const>[
     published_in: 1.0,
     updated_in: 1.0,
   },
-] satisfies ReadonlyArray<IconEntry>;
+]) satisfies readonly IconEntry[];
