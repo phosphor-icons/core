@@ -1,4 +1,4 @@
-<img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
+<img src="/meta/phosphor-mark-tight-black.png" width="128" align="right" />
 
 # @phosphor-icons/core
 
@@ -13,14 +13,15 @@ This repository hosts the raw SVGs and catalog data – including tags, categori
 ## Installation
 
 ```bash
-yarn add @phosphor-icons/core
+pnpm add @phosphor-icons/core
+#^ or whatever package manager you use
 ```
 
 ## Assets
 
-This package exposes all icons as SVG assets, grouped by weight, under the `/assets` directory (i.e.  `/assets/<weight>/<kebab-name>-<weight>.svg`). These files can be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize and transform `"*.svg"` files into modules.
+This package exposes all icons as SVG assets, grouped by weight, under the `/assets` directory (i.e. `/assets/<weight>/<kebab-name>-<weight>.svg`), and also aliased so that `/assets` can be omitted from the path in projects that support import maps. These files can be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize and transform `"*.svg"` files into modules.
 
-> *Note for Vite users:* As of Vite 4.0.4 (current at the time of writing), a bug in one of its dependencies prevents wildcard exports from being resolved. This will be [fixed](https://github.com/vitejs/vite/commit/00a79ec88472cbcc767c1187f919ce372215f573) in Vite 4.1.
+> **Note for Vite users**: As of Vite 4.0.4 (current at the time of writing), a bug in one of its dependencies prevents wildcard exports from being resolved. This will be [fixed](https://github.com/vitejs/vite/commit/00a79ec88472cbcc767c1187f919ce372215f573) in Vite 4.1.
 
 ### Example
 
@@ -36,17 +37,36 @@ import { ReactComponent as GhostDuotone } from "@phosphor-icons/core/duotone/gho
 
 ## Catalog
 
-This package exposes a named export `icons`, which is an array of `IconEntry` objects represententing each icon, its name in both `kebab-case` and `PascalCase`, the catergories and tags associated with it, as well as the version it was published in and the most recent version it was updated in:
+This package exposes a named export `icons`, which is an array of `IconEntry` objects represententing each icon, its name in both `kebab-case` and `PascalCase`, the catergories and tags associated with it, as well as the version it was published in and the most recent version it was updated in.
+
+It also includes an optional `alias` field, which if present, contains deprecated names for the icon for backwards-compatibility purposes, and a `codepoint` field, which is a stable decimal representation of its Unicode code point in font implementations such as [@phosphor-icons/web](https://github.com/phosphor-icons/web) and [@phosphor-icons/flutter](https://github.com/phosphor-icons/flutter).
 
 ```ts
 interface IconEntry {
-  name: string;               // "cloud-lightning"
-  pascal_name: string;        // "CloudLightning"
-  categories: IconCategory[]; // ["weather"]
-  tags: string[];             // ["*updated*", "meteorology", "cloudy", "overcast", "stormy", "thunderstorm"]
-  published_in: number;       // 1.0
-  updated_in: number;         // 1.4
+  name: string; // "cloud-lightning"
+  pascal_name: string; // "CloudLightning"
+  alias?: {
+    name: string;
+    pascal_name: string;
+  };
+  codepoint: number;
+  categories: readonly IconCategory[]; // ["weather"]
+  tags: readonly string[]; // ["*updated*", "meteorology", "cloudy", "overcast", "stormy", "thunderstorm"]
+  published_in: number; // 1.0
+  updated_in: number; // 1.4
 }
+```
+
+> **Note**: Duotone icons rely on overlaying two glyphs (a background and foreground layer), and thus use 2 codepoints. All codepoint bases are even numbers, so the codepoints associated with duotone icons are `codepoint` and `codepoint + 1`. The `codepoint` feature is not yet stabilized, and should only be relied upon in versions `>=2.1.0`.
+
+An additional type export, `PhosphorIcon`, represents the literal type of the `icons` list. You can use it to extract narrowed types such as *valid icon names*, which can be useful for constraining parameter types in ports:
+
+```ts
+type IconName = PhosphorIcon["name"];
+/* type IconName = "function" | "address-book" | "air-traffic-control" | "buildings" | "airplane" |
+ *                 "airplane-in-flight" | "airplane-landing" | "airplane-takeoff" | "airplane-tilt" |
+ *                 "airplay" | ... 1237 more ... | "youtube-logo"
+ */
 ```
 
 ## Our Related Projects
