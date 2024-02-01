@@ -5,7 +5,6 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import chalk from "chalk";
 import { parse, type INode } from "svgson";
-
 import {
   ASSETS_PATH,
   CATEGORY_MAP,
@@ -13,6 +12,9 @@ import {
   type IconAPIResponse,
   type IconMetadata,
 } from ".";
+
+const PUA_START = 57344;
+const PUA_END = 63743;
 
 const WEIGHTS = new Set([
   "regular",
@@ -22,12 +24,13 @@ const WEIGHTS = new Set([
   "fill",
   "duotone",
 ]);
-const PUA_START = 57344;
-const PUA_END = 63743;
 
 const INODE_CHECKS: Record<string, (i: INode) => boolean> = {
   "does not use currentColor": (i) => i.attributes["fill"] !== "currentColor",
   "has incorrect viewBox": (i) => i.attributes["viewBox"] !== "0 0 256 256",
+} as const;
+
+const INODE_WARNINGS: Record<string, (i: INode) => boolean> = {
   "has non-path elements": (i) => i.children.some((c) => c.name !== "path"),
 } as const;
 
@@ -52,11 +55,21 @@ const API_CHECKS: Record<string, (r: IconAPIResponse) => boolean> = {
 function verifyINode(i: INode, name: string, weight: string): boolean {
   let valid = true;
 
-  for (const [err, check] of Object.entries(INODE_CHECKS)) {
-    if (!check(i)) {
+  for (const [err, assertion] of Object.entries(INODE_CHECKS)) {
+    if (assertion(i)) {
       valid = false;
       console.error(
         `${chalk.inverse.red(" FAIL ")} ${name}${
+          weight === "regular" ? "" : `-${weight}`
+        } ${err}`
+      );
+    }
+  }
+
+  for (const [err, assertion] of Object.entries(INODE_WARNINGS)) {
+    if (assertion(i)) {
+      console.error(
+        `${chalk.inverse.yellow(" WARN ")} ${name}${
           weight === "regular" ? "" : `-${weight}`
         } ${err}`
       );
@@ -69,8 +82,8 @@ function verifyINode(i: INode, name: string, weight: string): boolean {
 function verifyIconMetadata(m: IconMetadata): boolean {
   let valid = true;
 
-  for (const [err, check] of Object.entries(METADATA_CHECKS)) {
-    if (!check(m)) {
+  for (const [err, assertion] of Object.entries(METADATA_CHECKS)) {
+    if (assertion(m)) {
       valid = false;
       console.error(`${chalk.inverse.red(" FAIL ")} ${m.name} ${err}`);
     }
@@ -137,8 +150,8 @@ export async function assertValidAssets(): Promise<void> {
 export function assertValidApiResponse(r: IconAPIResponse) {
   let valid = true;
 
-  for (const [err, check] of Object.entries(API_CHECKS)) {
-    if (!check(r)) {
+  for (const [err, assertion] of Object.entries(API_CHECKS)) {
+    if (assertion(r)) {
       valid = false;
       console.error(`${chalk.inverse.red(" FAIL ")} ${err}`);
     }
