@@ -2,22 +2,22 @@
 "use strict";
 
 import fs from "node:fs/promises";
-import path from "path";
 import axios from "axios";
 import chalk from "chalk";
 import { Command } from "commander";
 
 import { version } from "../package.json";
-import { CATEGORY_MAP } from ".";
+import { assertValidAssets, assertValidApiResponse } from "./verify";
+import {
+  CATALOG_PATH,
+  CATEGORY_MAP,
+  CURRENT_NUMERIC_VERSION,
+  type IconAPIResponse,
+} from ".";
 
 const ICON_API_URL = "https://api.phosphoricons.com";
 
-const [MAJOR_PART, MINOR_PART] = version.split(".");
-const CURRENT_NUMERIC_VERSION = +MAJOR_PART + +MINOR_PART / 10;
-
-main().catch(console.error);
-
-async function main() {
+(async function main() {
   const program = new Command();
   program
     .version(version)
@@ -34,8 +34,12 @@ async function main() {
   const params = new URLSearchParams(Object.entries(program.opts())).toString();
 
   try {
-    const res = await axios.get(`${ICON_API_URL}?${params}`);
+    await assertValidAssets();
+
+    const res = await axios.get<IconAPIResponse>(`${ICON_API_URL}?${params}`);
     if (res.data) {
+      assertValidApiResponse(res.data);
+
       res.data.icons.sort((a, b) => (a.name < b.name ? -1 : 1));
 
       let fileString = `\
@@ -46,30 +50,7 @@ export type PhosphorIcon = typeof icons[number]
 export const icons = <const>[
 `;
 
-      console.log(res.data.icons);
       res.data.icons.forEach((icon) => {
-        if (!icon.codepoint) {
-          console.error(
-            `${chalk.inverse.red(" FAIL ")} ${icon.name} missing Codepoint`
-          );
-          throw new Error("codepoint");
-        }
-
-        if (!icon.category) {
-          console.error(
-            `${chalk.inverse.red(" FAIL ")} ${icon.name} missing Category`
-          );
-          throw new Error("category");
-        }
-
-        let figma_category = CATEGORY_MAP[icon.category];
-        if (!figma_category) {
-          console.error(
-            `${chalk.inverse.red(" FAIL ")} Invalid category ${icon.category}`
-          );
-          throw new Error("figma_category");
-        }
-
         let categories = "[";
         icon.search_categories?.forEach((c) => {
           categories += `IconCategory.${c.toUpperCase()},`;
@@ -87,7 +68,7 @@ export const icons = <const>[
             : ""
         }
     categories: ${categories},
-    figma_category: FigmaCategory.${figma_category},
+    figma_category: FigmaCategory.${CATEGORY_MAP[icon.category]},
     tags: ${JSON.stringify([
       ...(icon.published_in >= CURRENT_NUMERIC_VERSION
         ? ["*new*"]
@@ -109,7 +90,7 @@ export const icons = <const>[
 `;
 
       try {
-        await fs.writeFile(path.join(__dirname, "../src/icons.ts"), fileString);
+        await fs.writeFile(CATALOG_PATH, fileString);
         console.log(
           `${chalk.green(" DONE ")} ${res.data.icons.length} icons ingested`
         );
@@ -125,7 +106,7 @@ export const icons = <const>[
     console.error(e);
     process.exit(1);
   }
-}
+})().catch(console.error);
 
 function pascalize(str) {
   return str
