@@ -370,7 +370,7 @@ packages:
   /axios@1.6.5:
     resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
     dependencies:
-      follow-redirects: 1.15.4
+      follow-redirects: 1.15.6
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -456,8 +456,8 @@ packages:
     resolution: {integrity: sha512-jLN68Dx5kyFHaePoXWPsCGW5qdyZQtLYHkxkg02/Mz6g0kYpDx4FyP6XfArhQdlOC4b8Mv+EMxPo/8La7Tzghg==}
     dev: true
 
-  /follow-redirects@1.15.4:
-    resolution: {integrity: sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==}
+  /follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
