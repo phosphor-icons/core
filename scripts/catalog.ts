@@ -2,7 +2,6 @@
 "use strict";
 
 import fs from "node:fs/promises";
-import axios from "axios";
 import chalk from "chalk";
 import { Command } from "commander";
 
@@ -36,11 +35,13 @@ const ICON_API_URL = "https://api.phosphoricons.com";
   try {
     await assertValidAssets();
 
-    const res = await axios.get<IconAPIResponse>(`${ICON_API_URL}?${params}`);
-    if (res.data) {
-      assertValidApiResponse(res.data);
+    const res = (await (
+      await fetch(`${ICON_API_URL}?${params}`)
+    ).json()) as IconAPIResponse;
+    if (res) {
+      assertValidApiResponse(res);
 
-      res.data.icons.sort((a, b) => (a.name < b.name ? -1 : 1));
+      res.icons.sort((a, b) => (a.name < b.name ? -1 : 1));
 
       let fileString = `\
 import { IconEntry, IconCategory, FigmaCategory } from "./types";
@@ -50,7 +51,7 @@ export type PhosphorIcon = typeof icons[number]
 export const icons = <const>[
 `;
 
-      res.data.icons.forEach((icon) => {
+      res.icons.forEach((icon) => {
         let categories = "[";
         icon.search_categories?.forEach((c) => {
           categories += `IconCategory.${c.toUpperCase()},`;
@@ -92,7 +93,7 @@ export const icons = <const>[
       try {
         await fs.writeFile(CATALOG_PATH, fileString);
         console.info(
-          `${chalk.green(" DONE ")} ${res.data.icons.length} icons ingested`
+          `${chalk.green(" DONE ")} ${res.icons.length} icons ingested`
         );
       } catch (e) {
         console.error(`${chalk.inverse.red(" FAIL ")} Could not write file`);
