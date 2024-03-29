@@ -68,7 +68,7 @@ function verifyINode(i: INode, name: string, weight: string): boolean {
 
   for (const [err, assertion] of Object.entries(INODE_WARNINGS)) {
     if (assertion(i)) {
-      console.error(
+      console.warn(
         `${chalk.inverse.yellow(" WARN ")} ${name}${
           weight === "regular" ? "" : `-${weight}`
         } ${err}`
@@ -110,26 +110,26 @@ export async function assertValidAssets(): Promise<void> {
       }
 
       const files = await fs.readdir(path.join(ASSETS_PATH, weight));
-      await Promise.all(
-        files.map(async (filename) => {
-          let name: string;
-          const nameParts = filename.split(".svg")[0].split("-");
-          if (nameParts[nameParts.length - 1] === weight) {
-            name = nameParts.slice(0, -1).join("-");
-          } else {
-            name = nameParts.join("-");
-          }
 
-          if (!icons[name]) {
-            icons[name] = {};
-          }
+      // NOTE: We have so many icons now that if we try to parrallelize this, we'll get EMFILE
+      for (const filename of files) {
+        let name: string;
+        const nameParts = filename.split(".svg")[0].split("-");
+        if (nameParts[nameParts.length - 1] === weight) {
+          name = nameParts.slice(0, -1).join("-");
+        } else {
+          name = nameParts.join("-");
+        }
 
-          const filepath = path.join(ASSETS_PATH, weight, filename);
-          const file = (await fs.readFile(filepath)).toString("utf-8");
-          const inode = await parse(file);
-          icons[name][weight] = verifyINode(inode, name, weight);
-        })
-      );
+        if (!icons[name]) {
+          icons[name] = {};
+        }
+
+        const filepath = path.join(ASSETS_PATH, weight, filename);
+        const file = (await fs.readFile(filepath)).toString("utf-8");
+        const inode = await parse(file);
+        icons[name][weight] = verifyINode(inode, name, weight);
+      }
     })
   );
 

@@ -82,7 +82,7 @@ export const icons = <const>[
     updated_in: ${icon.updated_in.toFixed(1)},
   },
 `;
-        console.log(`${chalk.inverse.green(" DONE ")} ${icon.name}`);
+        console.info(`${chalk.inverse.green(" DONE ")} ${icon.name}`);
       });
 
       fileString += `
@@ -91,7 +91,7 @@ export const icons = <const>[
 
       try {
         await fs.writeFile(CATALOG_PATH, fileString);
-        console.log(
+        console.info(
           `${chalk.green(" DONE ")} ${res.data.icons.length} icons ingested`
         );
       } catch (e) {
