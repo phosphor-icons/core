@@ -21,8 +21,6 @@ pnpm add @phosphor-icons/core
 
 This package exposes all icons as SVG assets, grouped by weight, under the `/assets` directory (i.e. `/assets/<weight>/<kebab-name>-<weight>.svg`), and also aliased so that `/assets` can be omitted from the path in projects that support import maps. These files can be used as needed for custom implementations or ports. Your framework and build tooling may require custom type declarations to recognize and transform `"*.svg"` files into modules.
 
-> **Note for Vite users**: As of Vite 4.0.4 (current at the time of writing), a bug in one of its dependencies prevents wildcard exports from being resolved. This will be [fixed](https://github.com/vitejs/vite/commit/00a79ec88472cbcc767c1187f919ce372215f573) in Vite 4.1.
-
 ### Example
 
 ```ts
@@ -57,7 +55,8 @@ interface IconEntry {
 }
 ```
 
-> **Note**: Duotone icons rely on overlaying two glyphs (a background and foreground layer), and thus use 2 codepoints. All codepoint bases are even numbers, so the codepoints associated with duotone icons are `codepoint` and `codepoint + 1`. The `codepoint` feature is not yet stabilized, and should only be relied upon in versions `>=2.1.0`.
+> [!NOTE]
+> Duotone icons rely on overlaying two glyphs (a background and foreground layer), and thus use 2 codepoints. All codepoint bases are even numbers, so the codepoints associated with duotone icons are `codepoint` and `codepoint + 1`. The `codepoint` feature is not yet stabilized, and should only be relied upon in versions `>=2.1.0`.
 
 An additional type export, `PhosphorIcon`, represents the literal type of the `icons` list. You can use it to extract narrowed types such as *valid icon names*, which can be useful for constraining parameter types in ports:
 
