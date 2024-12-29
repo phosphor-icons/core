@@ -68,6 +68,7 @@ type IconName = PhosphorIcon["name"];
  */
 ```
 
+<!-- BEGIN_LINKS -->
 ## Our Related Projects
 
 - [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
@@ -103,3 +104,4 @@ If you've made a port of Phosphor and you want to see it here, just open a PR [h
 ## License
 
 MIT © [Phosphor Icons](https://github.com/phosphor-icons)
+<!-- END_LINKS -->
