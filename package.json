@@ -48,6 +48,7 @@
     "./dist",
     "./assets"
   ],
+  "packageManager": "pnpm@9",
   "scripts": {
     "collate": "tsx ./scripts/collate.ts",
     "catalog": "tsx ./scripts/catalog.ts && pnpm format",
