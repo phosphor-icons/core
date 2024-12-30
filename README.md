@@ -1,6 +1,9 @@
-<img src="/meta/phosphor-mark-tight-black.png" width="128" align="right" />
 
 # @phosphor-icons/core
+
+<!-- BEGIN_LOGO -->
+<img src="/meta/phosphor-mark-tight-black.png" width="128" align="right" />
+<!-- END_LOGO -->
 
 This repository hosts the raw SVGs and catalog data – including tags, categories, and release versions – of all icons in the [Phosphor Icons](https://phosphoricons.com) family. It serves as the basis for our fuzzy-search on our website and other tools, and as a dev dependency in the build process in some of our framework-specific libraries. You may find this package is useful to you in implementing a port of Phosphor to your preferred framework, or as a source of truth for our current SVG assets.
 
