@@ -18032,7 +18032,7 @@ export const icons = (<const>[
       IconCategory.EDITOR,
     ],
     figma_category: FigmaCategory.FINANCE,
-    tags: ["tables", "tabular", "speadsheets", "excel", "grid", "form"],
+    tags: ["tables", "tabular", "spreadsheets", "excel", "grid", "form"],
     codepoint: 58486,
     published_in: 1.0,
     updated_in: 1.0,
