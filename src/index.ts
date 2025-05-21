@@ -1,2 +1,2 @@
-export * from "./icons";
-export * from "./types";
+export * from "./icons.js";
+export * from "./types.js";
