@@ -6547,7 +6547,7 @@ export const icons = (<const>[
     pascal_name: "Devices",
     categories: [IconCategory.OBJECTS],
     figma_category: FigmaCategory.SYSTEM,
-    tags: ["responsive", "cellphone", "cellular", "tablet", "destop"],
+    tags: ["responsive", "cellphone", "cellular", "tablet", "desktop"],
     codepoint: 60324,
     published_in: 2.0,
     updated_in: 2.0,
