@@ -1,4 +1,4 @@
-import { IconEntry, IconCategory, FigmaCategory } from "./types";
+import { IconEntry, IconCategory, FigmaCategory } from "./types.js";
 
 export type PhosphorIcon = (typeof icons)[number];
 
